@@ -27,3 +27,5 @@ WebUI.verifyElementPresent(findTestObject('ForgotPswd_page/div_guidebar'), 0)
 
 WebUI.navigateToUrl(GlobalVariable.WebURL)
 
+WebUI.acceptAlert()
+
