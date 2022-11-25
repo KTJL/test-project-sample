@@ -45,11 +45,15 @@ for (def index : (0..3)) {
     WebUI.verifyTextPresent(school[index], false)
 }
 
-WebUI.click(findTestObject('Register_Page/div_sele1'))
+WebUI.comment('select an option')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Register_Page/button_registerConfirm'))
 
-WebUI.waitForPageLoad(3)
+WebUI.waitForPageLoad(5)
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+WebUI.verifyElementPresent(findTestObject('Login_Page/div_loginbox'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/div_guidebar'), 0)
 
