@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>13-3 基本資料.檔案_輸入_字串(含中英文數字)長度小於等於256</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00c82ae3-52a7-45da-b9da-24e76a1fff16</testCaseGuid>
+</TestCaseEntity>
