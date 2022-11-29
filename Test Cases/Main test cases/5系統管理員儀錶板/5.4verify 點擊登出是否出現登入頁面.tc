@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5.4verify 點擊登出是否出現登入頁面</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fffb48ff-b729-4002-8340-1c4555652cd2</testCaseGuid>
+</TestCaseEntity>
