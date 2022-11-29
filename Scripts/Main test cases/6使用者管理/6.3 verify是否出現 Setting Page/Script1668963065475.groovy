@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Admin/Manage_Usr/button_admin'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.verifyElementPresent(findTestObject('Admin/Setting_Page/div_guidebar'), 0)
+WebUI.verifyElementPresent(findTestObject('Setting_Page/div_guidebar'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin/Setting_Page/div_settingBox'), 0)
+WebUI.verifyElementPresent(findTestObject('Setting_Page/div_settingBox'), 0)
 
