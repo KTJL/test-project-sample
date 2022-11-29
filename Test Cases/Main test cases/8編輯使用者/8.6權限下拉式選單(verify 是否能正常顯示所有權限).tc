@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>8.6權限下拉式選單(verify 是否能正常顯示所有權限)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22708a28-e3f0-4867-a6dc-18a162ce343a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8550713d-6b33-4dd3-91e2-6f5bd200c3a6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['APPLICANT', 'ADMIN', 'PROGRAMMANAGER', 'REVIEWER']</defaultValue>
+      <description></description>
+      <id>8fb1f018-07ea-4039-9fdb-1c2a476b2184</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>8.9更新(verify是否出現 usrManage Page 且 modal 消失)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a80b4387-4bef-41b4-9fdb-ceb7c2ceeb25</testCaseGuid>
+</TestCaseEntity>

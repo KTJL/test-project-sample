@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__school</name>
+   <tag></tag>
+   <elementGuidId>32d0c81f-6a88-4670-bc0f-c6d577afea2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-base-selection-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='就讀學校'])[1]/following::div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8eb867da-ea83-4e71-be7c-1a06929c2e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-base-selection-label</value>
+      <webElementGuid>a0cdacbb-0b90-49d9-b35f-40990871d423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>70e1483f-1b91-4d5a-9adc-6e34fe8cff1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-form-item __form-item-ml n-form-item--medium-size n-form-item--left-labelled n-form-item--auto-label-width&quot;]/div[@class=&quot;n-form-item-blank&quot;]/div[@class=&quot;n-select&quot;]/div[@class=&quot;n-base-selection n-base-selection--selected n-base-selection--focus&quot;]/div[@class=&quot;n-base-selection-label&quot;]</value>
+      <webElementGuid>0dc5f625-7371-4106-ab61-7534fba996c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='就讀學校'])[1]/following::div[4]</value>
+      <webElementGuid>05336959-9228-4bb6-a4e6-a05f2b3e1c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='權限'])[1]/preceding::div[10]</value>
+      <webElementGuid>6c719258-961c-4eda-b1f6-fcd1723594c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/div</value>
+      <webElementGuid>d79f77ab-d8ea-4927-bcfd-2864c5b4e5b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
