@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10.12登出(verify是否出現登入頁面)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4e4920b-0b6d-4e00-a3c1-d027ca4595fa</testCaseGuid>
+</TestCaseEntity>

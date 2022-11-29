@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10.8更新密碼(含空欄目)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6888f736-2538-466b-91c7-c0b52d4f76f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fd2cd0c-159a-4aa0-8432-fe3f9d5c8413</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23bc6d00-e4ec-4c78-8cbc-1e75b951fc37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60c6e7bb-10c1-40e2-a3e2-29a73e690cdd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'oldPswd'</defaultValue>
+      <description></description>
+      <id>2fd2cd0c-159a-4aa0-8432-fe3f9d5c8413</id>
+      <masked>false</masked>
+      <name>oldPswd</name>
+   </variable>
+   <variable>
+      <defaultValue>'newPswd'</defaultValue>
+      <description></description>
+      <id>23bc6d00-e4ec-4c78-8cbc-1e75b951fc37</id>
+      <masked>false</masked>
+      <name>newPswd</name>
+   </variable>
+   <variable>
+      <defaultValue>'confirmPswd\r\n'</defaultValue>
+      <description></description>
+      <id>60c6e7bb-10c1-40e2-a3e2-29a73e690cdd</id>
+      <masked>false</masked>
+      <name>confirmPswd</name>
+   </variable>
+</TestCaseEntity>
