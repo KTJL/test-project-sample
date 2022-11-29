@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>3-4登入成功(系統管理員)</name>
+   <name>common-openProgramManagerPage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6e05fab5-35c7-4bd8-9dd4-0be2c403f4c5</testCaseGuid>
+   <testCaseGuid>a48b515f-ff53-42ed-b0d4-4c390188393f</testCaseGuid>
 </TestCaseEntity>
