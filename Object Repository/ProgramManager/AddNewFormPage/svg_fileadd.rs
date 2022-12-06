@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_fileadd</name>
+   <tag></tag>
+   <elementGuidId>eb5f4c91-85a6-4179-8fd8-a87b81d63d8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='必填'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>5da6183f-8844-434b-91a2-28bbfadf629a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>512</value>
+      <webElementGuid>ad43ecf7-b3ae-485e-90dd-a672e95950da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>512</value>
+      <webElementGuid>e7396134-42b7-477d-9090-b93dfc9b5155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 512 512</value>
+      <webElementGuid>9966cb6d-2bb1-42d8-a258-d4645962f4f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>f4a986d8-0613-43d0-ac13-29a64b0f3510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>f7280e82-7eb3-4aa1-97a9-1fa98042546a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 md:w-2/3 max-w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]/div[@class=&quot;n-dynamic-input&quot;]/div[@class=&quot;n-dynamic-input-item&quot;]/div[@class=&quot;n-dynamic-input-item__action&quot;]/div[@class=&quot;n-button-group&quot;]/button[@class=&quot;n-button n-button--default-type n-button--medium-type&quot;]/span[@class=&quot;n-button__icon&quot;]/div[@class=&quot;n-icon-slot&quot;]/i[@class=&quot;n-base-icon&quot;]/svg[1]</value>
+      <webElementGuid>565ce512-103c-4a5d-864b-37b3feb4d693</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='必填'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>0963f0a2-cee6-4e04-889e-6b17bba98a9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='項目名稱'])[1]/following::*[name()='svg'][3]</value>
+      <webElementGuid>be1696b9-d352-48cb-aa44-1ebb06bb1b2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::*[name()='svg'][6]</value>
+      <webElementGuid>50bf1484-b4fc-41f7-b164-7697f82642e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

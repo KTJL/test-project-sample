@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10.10更新密碼(新密碼與確認密碼不符)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5cdb811-e445-41d0-b1a2-3ea154ccbed4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aff02fb1-a606-48c5-89c7-da3d72b7e170</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'oldPswd'</defaultValue>
+      <description></description>
+      <id>2fd2cd0c-159a-4aa0-8432-fe3f9d5c8413</id>
+      <masked>false</masked>
+      <name>oldPswd</name>
+   </variable>
+   <variable>
+      <defaultValue>'newPswd'</defaultValue>
+      <description></description>
+      <id>23bc6d00-e4ec-4c78-8cbc-1e75b951fc37</id>
+      <masked>false</masked>
+      <name>newPswd</name>
+   </variable>
+   <variable>
+      <defaultValue>'confirmPswd\r\n'</defaultValue>
+      <description></description>
+      <id>60c6e7bb-10c1-40e2-a3e2-29a73e690cdd</id>
+      <masked>false</masked>
+      <name>confirmPswd</name>
+   </variable>
+</TestCaseEntity>

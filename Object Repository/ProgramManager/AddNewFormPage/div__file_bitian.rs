@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__file_bitian</name>
+   <tag></tag>
+   <elementGuidId>55da7aba-cba5-4e16-88d3-155b5a11a339</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div/div[3]/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7f43ae14-240f-43b7-99e7-81f5264476c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-checkbox-box__border</value>
+      <webElementGuid>75bbe1d6-cd25-44d5-859c-5607aa819a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 md:w-2/3 max-w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]/div[@class=&quot;n-dynamic-input&quot;]/div[@class=&quot;n-dynamic-input-item&quot;]/div[@class=&quot;n-space&quot;]/div[3]/div[@class=&quot;n-checkbox&quot;]/div[@class=&quot;n-checkbox-box-wrapper&quot;]/div[@class=&quot;n-checkbox-box&quot;]/div[@class=&quot;n-checkbox-box__border&quot;]</value>
+      <webElementGuid>8bb09a4b-68ae-48b4-ab2e-6a25a3cb7f7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[3]/div/div/div/div[2]</value>
+      <webElementGuid>4a3e7047-d5ca-4e7e-8d8f-2dbfc3b410e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

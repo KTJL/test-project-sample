@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openProgramManagerPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ProgramManager/HomePage/button_openlist'))
+WebUI.click(findTestObject('ProgramManager/HomePage/div__opensidebar'))
 
 WebUI.verifyElementNotPresent(findTestObject('ProgramManager/HomePage/div_sidebar'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('ProgramManager/HomePage/svg_addprojectbutton'), 0)
 
-WebUI.click(findTestObject('ProgramManager/HomePage/button_openlist'))
+WebUI.click(findTestObject('ProgramManager/HomePage/div__opensidebar'))
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_sidebar'), 0)
 

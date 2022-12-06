@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>12-2 建立書審評分_verify是否出現 setupDocReview Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da0c0e10-3b8e-44f9-8dec-c44eac4c1dff</testCaseGuid>
+</TestCaseEntity>

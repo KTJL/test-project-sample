@@ -17,3 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openAddNewFormPage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'))
+
+WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_basicobject'), 0)
+
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__basic_bitian'))
+
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__nolimit'))
+
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__onlynum'))
+
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__email'))
+
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_openfile'))
+
+WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/div_basicobject'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/button_addfile'), 0)
+
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addfile'))
+
+WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/button_addfile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_fileobject'), 0)
+
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__file_bitian'))
+
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_openother'))
+
+WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/div_fileobject'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_recommendletter'), 0)
+
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__recommendletter_yesorno'))
+

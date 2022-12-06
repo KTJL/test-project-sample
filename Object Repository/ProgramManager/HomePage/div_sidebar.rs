@@ -3,15 +3,15 @@
    <description></description>
    <name>div_sidebar</name>
    <tag></tag>
-   <elementGuidId>3064e2a5-0beb-4823-ba92-07ecd064d14f</elementGuidId>
+   <elementGuidId>b5fa59e8-9384-445f-8af9-781444b3049f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[2]/div/div/aside/div/div/div/div</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.n-collapse</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[2]/div/div/aside/div/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>104c74f8-fb63-475e-acb6-c47cd6af7023</webElementGuid>
+      <webElementGuid>d7aad4cd-b636-4f9a-92cc-0d1c47447ca6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse</value>
-      <webElementGuid>1d5d3ec1-b1b3-498f-80f4-ea2a25946fe9</webElementGuid>
+      <webElementGuid>4f36e08b-d013-437d-9b3d-4e898f9f50ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>未開始的計畫進行中的計畫結束的計畫</value>
-      <webElementGuid>832e70d3-b593-464c-9bdf-63c7328639fc</webElementGuid>
+      <value>未開始的計畫test_project進行中的計畫test_project01結束的計畫test_project_end</value>
+      <webElementGuid>a318dffe-59e2-48e8-9c05-6b69fdfad324</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[1]/aside[@class=&quot;n-layout-sider n-layout-sider--static-positioned n-layout-sider--left-placement n-layout-sider--bordered n-layout-sider--show-content&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content&quot;]/div[@class=&quot;n-collapse&quot;]</value>
-      <webElementGuid>5dda3f0f-1306-4559-8f71-9f9032ad9842</webElementGuid>
+      <webElementGuid>331f467c-ff6b-469b-949b-6fc2d3f93243</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div/div/aside/div/div/div/div</value>
-      <webElementGuid>9e9343d3-4aaf-4471-a364-c12f43df3ea2</webElementGuid>
+      <webElementGuid>46d8359b-82f5-4296-8c94-fbb487166a9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/following::div[10]</value>
-      <webElementGuid>ebcbd0e2-615f-4d82-b494-3cbe0776c6b5</webElementGuid>
+      <webElementGuid>8fc7f60d-2daf-4eb9-927e-399084f513b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='testPM'])[1]/following::div[12]</value>
-      <webElementGuid>7810ec29-1318-411c-8cd9-5e9572f10f7c</webElementGuid>
+      <webElementGuid>7bd1080a-0a34-4f2f-8d27-a44ba3b59a35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//aside/div/div/div/div</value>
-      <webElementGuid>3b8ff439-40f9-4762-80c2-b6126a8b69f5</webElementGuid>
+      <webElementGuid>832b1be7-48b3-47a5-b291-6402f0678cfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '未開始的計畫進行中的計畫結束的計畫' or . = '未開始的計畫進行中的計畫結束的計畫')]</value>
-      <webElementGuid>d0a3eddf-f8e1-44bf-9a63-bef0a83aeb6e</webElementGuid>
+      <value>//div[(text() = '未開始的計畫test_project進行中的計畫test_project01結束的計畫test_project_end' or . = '未開始的計畫test_project進行中的計畫test_project01結束的計畫test_project_end')]</value>
+      <webElementGuid>6114f543-f7f8-49fc-adbd-866c4d4790b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

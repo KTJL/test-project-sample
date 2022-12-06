@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>12-1 建立報名表單_verify是否出現 create Form Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92dd850c-cae3-4d7e-bed7-6ce2c5e0820c</testCaseGuid>
+</TestCaseEntity>

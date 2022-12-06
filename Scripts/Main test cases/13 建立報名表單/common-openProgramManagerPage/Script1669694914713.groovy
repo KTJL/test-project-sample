@@ -35,5 +35,5 @@ WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_sidebar')
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/svg_addprojectbutton'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/button_openlist'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div__opensidebar'), 0)
 

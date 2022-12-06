@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_role</name>
+   <tag></tag>
+   <elementGuidId>93f62752-60a6-4635-a7d9-13ff1f0cc57f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-base-selection.n-base-selection--selected.n-base-selection--disabled > div.n-base-selection-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='權限'])[1]/following::div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>53cade4b-9e41-440c-b57f-368056799062</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-base-selection-label</value>
+      <webElementGuid>eb2aa71c-f27b-4795-9434-eb08fb52d8be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADMIN</value>
+      <webElementGuid>3fe7bf05-e0be-4fa4-bec8-c3b90ec1b12d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-form-item __form-item-ml n-form-item--medium-size n-form-item--left-labelled n-form-item--auto-label-width&quot;]/div[@class=&quot;n-form-item-blank&quot;]/div[@class=&quot;n-select&quot;]/div[@class=&quot;n-base-selection n-base-selection--selected n-base-selection--disabled&quot;]/div[@class=&quot;n-base-selection-label&quot;]</value>
+      <webElementGuid>63b388ff-b0aa-41f6-9c28-221e30506783</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='權限'])[1]/following::div[4]</value>
+      <webElementGuid>a45b1cf0-1e1f-4d82-adf9-234ba3bb527f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='儲存'])[1]/preceding::div[10]</value>
+      <webElementGuid>aeab1e4c-116e-451e-ba2a-4783d5243730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/div/div</value>
+      <webElementGuid>1cc3bc9b-e5e0-4d2e-a86f-baa997ec9ff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ADMIN' or . = 'ADMIN')]</value>
+      <webElementGuid>c5a393f7-7cb9-4e6c-8933-75b65c36c577</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

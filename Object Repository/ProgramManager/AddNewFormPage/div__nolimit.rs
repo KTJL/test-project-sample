@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__nolimit</name>
+   <tag></tag>
+   <elementGuidId>d98bdb03-4b08-4ff2-bf4d-928f25ee0547</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-radio__dot.n-radio__dot--checked</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cf51a572-804f-4b39-8ff9-d37ed0625bf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-radio__dot n-radio__dot--checked</value>
+      <webElementGuid>ae73b8b9-4500-4c77-b5fe-4f6930454c8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 md:w-2/3 max-w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]/div[@class=&quot;n-dynamic-input&quot;]/div[@class=&quot;n-dynamic-input-item&quot;]/div[@class=&quot;n-space&quot;]/div[4]/div[@class=&quot;n-radio-group&quot;]/div[@class=&quot;n-space&quot;]/div[1]/label[@class=&quot;n-radio n-radio--checked&quot;]/div[@class=&quot;n-radio__dot-wrapper&quot;]/div[@class=&quot;n-radio__dot n-radio__dot--checked&quot;]</value>
+      <webElementGuid>e6a2418a-7b33-4a01-a29e-d4fce686e07d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div/div</value>
+      <webElementGuid>44967bc8-e908-4c43-ae14-3551d25ded29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
