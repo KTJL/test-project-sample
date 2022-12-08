@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/3登入/common-openLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Login_Page/input__account'), 'test_account')
+
+WebUI.setEncryptedText(findTestObject('Login_Page/input__password'), '9BFdsRNImDgSpb5NYnLR7A==')
+
+WebUI.click(findTestObject('Login_Page/button_login_mid'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMguidebar'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_sidebar'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/button_openlist'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMdescription_'), 0)
+
