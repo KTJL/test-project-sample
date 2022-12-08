@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>3-7登入成功(申請者)</name>
+   <description>停留原頁。密碼Input 欄下方顯示 「信箱尚未驗證」</description>
+   <name>3-8(在2之前測)登入失敗(已存在之帳號未驗證)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>07ee09c1-b886-425b-9866-e2ca1679db77</testCaseGuid>
+   <testCaseGuid>480b4b82-6721-4fc7-8b2d-204c32566cea</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>495b4edb-f4fd-4e74-80d2-873c025119d7</variableId>
+      <variableId>9f126ac2-0425-4dac-8dcc-91015a39f7e3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>348d05a1-537f-4f25-9e22-2f3659a31592</variableId>
+      <variableId>0e7ec3a4-c23c-4cea-86fd-647eef181f68</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'test_account\r\n'</defaultValue>

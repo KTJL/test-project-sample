@@ -23,5 +23,7 @@ WebUI.setText(findTestObject('Login_Page/input__account'), account)
 
 WebUI.setText(findTestObject('Login_Page/input__password'), password)
 
-WebUI.click(findTestObject('Login_Page/div_NTNU'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Login_Page/button_login_mid'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('Applicant/Homepage/div_homepageBox'), 0)
 

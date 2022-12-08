@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5be86942-4ee5-47ca-a81d-cfd2789b0ac8</testCaseGuid>
+   <variable>
+      <defaultValue>'test_account\r\n'</defaultValue>
+      <description></description>
+      <id>9f126ac2-0425-4dac-8dcc-91015a39f7e3</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'test_pswd\r\n'</defaultValue>
+      <description></description>
+      <id>0e7ec3a4-c23c-4cea-86fd-647eef181f68</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

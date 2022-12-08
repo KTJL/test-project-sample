@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/3登入/common-openLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login_Page/input__account'), 'test_account')
+WebUI.setText(findTestObject('Login_Page/input__account'), 'testReviewer@email.com')
 
-WebUI.setEncryptedText(findTestObject('Login_Page/input__password'), '9BFdsRNImDgSpb5NYnLR7A==')
+WebUI.setEncryptedText(findTestObject('Login_Page/input__password'), 'ePaLWJ0TA8e9En2glMSp/A==')
 
 WebUI.click(findTestObject('Login_Page/button_login_mid'))
 
