@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b0ffb810-f99a-497f-a237-6ab75c863f4a</testCaseGuid>
+   <variable>
+      <defaultValue>['普通大學', '施工大學', '吃飯大學', '師範大學']</defaultValue>
+      <description></description>
+      <id>739e7437-25ed-40db-980d-73e023d95560</id>
+      <masked>false</masked>
+      <name>school</name>
+   </variable>
 </TestCaseEntity>

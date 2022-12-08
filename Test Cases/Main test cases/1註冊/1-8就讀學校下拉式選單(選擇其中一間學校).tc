@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4e7705aa-02f9-4bd2-a7b5-48740740e420</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbb9d943-697e-4ff2-a49b-c5aa95e9c9ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6912fad-1d73-4d09-bfa4-ed752c3dcad2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['普通大學', '施工大學', '吃飯大學', '師範大學']</defaultValue>
+      <description></description>
+      <id>739e7437-25ed-40db-980d-73e023d95560</id>
+      <masked>false</masked>
+      <name>school</name>
+   </variable>
+   <variable>
+      <defaultValue>'師範大學'</defaultValue>
+      <description></description>
+      <id>c6912fad-1d73-4d09-bfa4-ed752c3dcad2</id>
+      <masked>false</masked>
+      <name>selected_school</name>
+   </variable>
 </TestCaseEntity>

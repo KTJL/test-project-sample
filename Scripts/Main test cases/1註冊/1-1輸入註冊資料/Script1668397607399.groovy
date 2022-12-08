@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/1註冊/common-openRegisterPage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Register_Page/input__email'), email)
+
+WebUI.setText(findTestObject('Register_Page/input__password'), password)
+
+WebUI.setText(findTestObject('Register_Page/input__pswdConfirm'), password)
+
+WebUI.setText(findTestObject('Register_Page/input__name'), name)
+
+WebUI.sendKeys(findTestObject('Register_Page/input__birthday'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Register_Page/input__birthday'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Register_Page/input__birthday'), birthday)
+
+WebUI.setText(findTestObject('Register_Page/input__cellphone'), phone)
+
+WebUI.setText(findTestObject('Register_Page/input__address'), address)
+
+WebUI.setText(findTestObject('Register_Page/input__ID'), ID)
+
+WebUI.click(findTestObject('Register_Page/div__school'))
+
+for (def index : (0..3)) {
+    WebUI.verifyTextPresent(school[index], false)
+}
+
+WebUI.comment('select an option')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Register_Page/button_registerConfirm'))
+

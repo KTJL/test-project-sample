@@ -60,7 +60,7 @@
       <variableId>d7ebf6bd-7025-442c-8ff8-1e3dfcb18526</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'testmail@mail.com\r\n'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>4417b161-6d2e-4ca2-a448-2ccb46c2947e</id>
       <masked>false</masked>

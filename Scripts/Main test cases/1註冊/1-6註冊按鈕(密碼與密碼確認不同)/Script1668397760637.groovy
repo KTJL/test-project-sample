@@ -55,3 +55,5 @@ WebUI.click(findTestObject('Register_Page/div_sele1'))
 
 WebUI.click(findTestObject('Register_Page/button_registerConfirm'))
 
+WebUI.verifyElementNotPresent(findTestObject('Login_Page/div_loginbox'), 0)
+

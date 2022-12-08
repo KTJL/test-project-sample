@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/1註冊/common-openRegisterPage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Register_Page/div__school'), 0)
+
+WebUI.click(findTestObject('Register_Page/div__school'))
+
+for (def index : (0..3)) {
+    WebUI.verifyTextPresent(school[index], false)
+}
+

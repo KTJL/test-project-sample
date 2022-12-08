@@ -22,24 +22,32 @@ WebUI.callTestCase(findTestCase('Main test cases/1註冊/common-openRegisterPage
 WebUI.setText(findTestObject('Register_Page/input__email'), email)
 
 if (email == '') {
+    WebUI.clickOffset(findTestObject('Register_Page/div_registerBox'), 0, 0)
+
     WebUI.verifyElementPresent(findTestObject('Register_Page/div_input_emailpls'), 0)
 }
 
 WebUI.setText(findTestObject('Register_Page/input__password'), password)
 
 if (password == '') {
+    WebUI.clickOffset(findTestObject('Register_Page/div_registerBox'), 0, 0)
+
     WebUI.verifyElementPresent(findTestObject('Register_Page/div_input_pswdpls'), 0)
 }
 
 WebUI.setText(findTestObject('Register_Page/input__pswdConfirm'), password)
 
 if (confirm_password == '') {
+    WebUI.clickOffset(findTestObject('Register_Page/div_registerBox'), 0, 0)
+
     WebUI.verifyElementPresent(findTestObject('Register_Page/div_input_pswdConfirmpls'), 0)
 }
 
 WebUI.setText(findTestObject('Register_Page/input__name'), name)
 
 if (name == '') {
+    WebUI.clickOffset(findTestObject('Register_Page/div_registerBox'), 0, 0)
+
     WebUI.verifyElementPresent(findTestObject('Register_Page/div_input_namepls'), 0)
 }
 
@@ -52,6 +60,8 @@ WebUI.setText(findTestObject('Register_Page/input__birthday'), birthday)
 WebUI.setText(findTestObject('Register_Page/input__cellphone'), phone)
 
 if (phone == '') {
+    WebUI.clickOffset(findTestObject('Register_Page/div_registerBox'), 0, 0)
+
     WebUI.verifyElementPresent(findTestObject('Register_Page/div_input_phonepls'), 0)
 }
 
@@ -60,6 +70,8 @@ WebUI.setText(findTestObject('Register_Page/input__address'), address)
 WebUI.setText(findTestObject('Register_Page/input__ID'), ID)
 
 if (ID == '') {
+    WebUI.clickOffset(findTestObject('Register_Page/div_registerBox'), 0, 0)
+
     WebUI.verifyElementPresent(findTestObject('Register_Page/div_inputIDpls'), 0)
 }
 
@@ -70,4 +82,6 @@ WebUI.verifyTextPresent('師範大學', false)
 WebUI.click(findTestObject('Register_Page/div_sele1'))
 
 WebUI.click(findTestObject('Register_Page/button_registerConfirm'))
+
+WebUI.verifyElementNotPresent(findTestObject('Login_Page/div_loginbox'), 0)
 
