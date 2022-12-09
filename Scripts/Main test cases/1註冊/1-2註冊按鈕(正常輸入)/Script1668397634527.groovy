@@ -39,15 +39,7 @@ WebUI.setText(findTestObject('Register_Page/input__address'), address)
 
 WebUI.setText(findTestObject('Register_Page/input__ID'), ID)
 
-WebUI.click(findTestObject('Register_Page/div__school'))
-
-for (def index : (0..3)) {
-    WebUI.verifyTextPresent(school[index], false)
-}
-
-WebUI.comment('select an option')
-
-WebUI.delay(5)
+WebUI.setText(findTestObject('Register_Page/input__school'), school)
 
 WebUI.click(findTestObject('Register_Page/button_registerConfirm'))
 

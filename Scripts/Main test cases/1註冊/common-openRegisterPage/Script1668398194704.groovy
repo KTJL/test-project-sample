@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('常用case/openWeb'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Login_Page/button_register'))
 
 WebUI.verifyElementPresent(findTestObject('Register_Page/div_guidebar'), 0)

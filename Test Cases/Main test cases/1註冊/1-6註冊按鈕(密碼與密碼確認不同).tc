@@ -113,13 +113,20 @@
       <description></description>
       <id>739e7437-25ed-40db-980d-73e023d95560</id>
       <masked>false</masked>
-      <name>school</name>
+      <name>school_list</name>
    </variable>
    <variable>
-      <defaultValue>'worngpswd\r\n'</defaultValue>
+      <defaultValue>'worngpswd'</defaultValue>
       <description></description>
       <id>1d9cea08-4ecc-4892-a449-0619880c4d0e</id>
       <masked>false</masked>
       <name>wrong_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'testschool'</defaultValue>
+      <description></description>
+      <id>1d9cea08-4ecc-4892-a449-0619880c4d0e</id>
+      <masked>false</masked>
+      <name>school</name>
    </variable>
 </TestCaseEntity>

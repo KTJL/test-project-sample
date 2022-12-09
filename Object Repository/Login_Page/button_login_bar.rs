@@ -6,12 +6,12 @@
    <elementGuidId>87a8da8e-e2b9-4c99-b721-9111c03d22d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.n-button.n-button--info-type.n-button--medium-type.w-24</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
+         <key>CSS</key>
+         <value>button.n-button.n-button--info-type.n-button--medium-type.w-24</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4417e7c2-146e-41d7-aa37-2bdeaa9694b2</webElementGuid>
+      <webElementGuid>95a0124e-786e-4533-b3a2-db831273967f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--info-type n-button--medium-type w-24</value>
-      <webElementGuid>55c72e3f-4507-4bc7-85b9-0c209d8bb4e2</webElementGuid>
+      <webElementGuid>830d943b-4f6b-4455-8300-2bd53bb99c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>22f99250-bb1d-4db9-bc20-bf6de1420c8d</webElementGuid>
+      <webElementGuid>7501f053-eb51-4d8e-aa85-d9a1ea06d373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d3987794-5d7c-4d7b-b13c-94df99388b55</webElementGuid>
+      <webElementGuid>bc7672c8-9faa-4db6-a378-b8af2fed22fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,31 +54,31 @@
       <name>text</name>
       <type>Main</type>
       <value>登入</value>
-      <webElementGuid>388d778e-c948-485a-a36c-093054ea292c</webElementGuid>
+      <webElementGuid>ca56ad1c-b865-45af-a075-6799e951ac9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]/div[2]/template[@class=&quot;block&quot;]/template[@class=&quot;&lt;md:hidden md:block&quot;]/div[@class=&quot;n-space&quot;]/div[3]/a[@class=&quot;router-link-active router-link-exact-active&quot;]/button[@class=&quot;n-button n-button--info-type n-button--medium-type w-24&quot;]</value>
-      <webElementGuid>8c77860a-baad-4596-8487-70d3ebdc9c21</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]/div[2]/template[@class=&quot;block&quot;]/template[@class=&quot;&lt;md:hidden md:block&quot;]/div[@class=&quot;n-space&quot;]/div[2]/a[@class=&quot;router-link-active router-link-exact-active&quot;]/button[@class=&quot;n-button n-button--info-type n-button--medium-type w-24&quot;]</value>
+      <webElementGuid>af1a2257-f505-4809-8248-14e958da8862</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>0cf95776-3c72-4aea-ace3-1cda02a9bebf</webElementGuid>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>bbc424db-6bcc-4d41-8503-faaff87d5c5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div[2]/template/template[2]/div/div[3]/a/button</value>
-      <webElementGuid>16a49e2b-62ff-47ce-baab-288da3d38fe1</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div/div/div[2]/template/template[2]/div/div[2]/a/button</value>
+      <webElementGuid>fbd0f35e-d937-44c9-a4dd-72a1b1bd224b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::button[1]</value>
-      <webElementGuid>bd6267ea-6ff6-4f1c-a5ae-6278b47cf77e</webElementGuid>
+      <webElementGuid>6e9417cb-fadf-42cf-8c04-aedad0a5292d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='身分'])[1]/following::button[2]</value>
-      <webElementGuid>30d94d5c-a69c-4833-80c8-7885e7b18399</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='師大資工線上申請系統'])[2]/following::button[3]</value>
+      <webElementGuid>7394e7e3-e76f-40a4-a122-516fde658765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='註冊'])[1]/preceding::button[1]</value>
-      <webElementGuid>543c22c1-f094-4b4b-a0a1-3c52a24dc2fa</webElementGuid>
+      <webElementGuid>5bd900a6-f0ab-40c5-b29c-ca42e9ae4e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button</value>
-      <webElementGuid>d92d89f7-fef5-4249-8c8e-05785169fea8</webElementGuid>
+      <webElementGuid>9dac2689-3dab-4bc7-89c1-ebf00e7e8443</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '登入' or . = '登入')]</value>
-      <webElementGuid>db5f62c6-401e-4180-813f-c0baa7460709</webElementGuid>
+      <webElementGuid>674854d7-d4ec-4dba-9f19-ae534945438b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

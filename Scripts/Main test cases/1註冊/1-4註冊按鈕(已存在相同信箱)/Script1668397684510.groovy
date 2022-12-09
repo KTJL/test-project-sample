@@ -39,11 +39,7 @@ WebUI.setText(findTestObject('Register_Page/input__address'), address)
 
 WebUI.setText(findTestObject('Register_Page/input__ID'), ID)
 
-WebUI.click(findTestObject('Register_Page/div__school'))
-
-WebUI.verifyTextPresent('師範大學', false)
-
-WebUI.click(findTestObject('Register_Page/div_sele1'))
+WebUI.setText(findTestObject('Register_Page/input__school'), school)
 
 WebUI.click(findTestObject('Register_Page/button_registerConfirm'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>e1d4b368-9d35-4193-b205-f1b7b53c5df0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.n-space</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div</value>
+         <key>CSS</key>
+         <value>div.n-space</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cc9999ae-e6ad-4ebe-841e-9a5cf2b2b185</webElementGuid>
+      <webElementGuid>0552c01a-15b7-40c5-98ab-2357f03ec995</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>6a81182d-4ade-4f7f-bb72-2b45891a92d7</webElementGuid>
+      <webElementGuid>68543229-80ce-4e52-90bb-8a9f59d4cc26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-space</value>
-      <webElementGuid>d16f209e-9a83-4917-9abf-867329ef5731</webElementGuid>
+      <webElementGuid>eb880606-8029-4bf9-b31e-c63ab8adb5a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>h</name>
       <type>Main</type>
       <value>full</value>
-      <webElementGuid>bd7bc626-c03d-4c48-aef1-288575895235</webElementGuid>
+      <webElementGuid>e8648250-77c4-4012-a331-4231f05e578f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>max-w</name>
       <type>Main</type>
       <value>7xl</value>
-      <webElementGuid>49369bba-c9ac-4cf4-8e89-d249df21c3be</webElementGuid>
+      <webElementGuid>d4623e88-1d61-45f8-ac86-68315baeea4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>m</name>
       <type>Main</type>
       <value>x-auto</value>
-      <webElementGuid>3a62901e-6a81-40af-bd58-81e95d8bcc4f</webElementGuid>
+      <webElementGuid>292a1029-3a13-4538-af60-a41f18dd2137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>p</name>
       <type>Main</type>
       <value>x-sm</value>
-      <webElementGuid>291ac2a9-ad64-4ef7-85ce-501bafa92231</webElementGuid>
+      <webElementGuid>db251575-1594-4905-8e31-be29fe02fbe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,46 +78,46 @@
       <name>font</name>
       <type>Main</type>
       <value>bold</value>
-      <webElementGuid>c2571d9e-a544-43e0-8abb-cc25a65e2c38</webElementGuid>
+      <webElementGuid>c071bb11-6934-470f-a13f-ca1d056e49c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>師大資工線上申請系統=身分EN登入註冊</value>
-      <webElementGuid>d84844d9-22e9-42af-8704-4cef13ad6030</webElementGuid>
+      <value>師大資工線上申請系統EN登入註冊</value>
+      <webElementGuid>2c83aa6c-157b-4916-867b-757d77ddcb7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]</value>
-      <webElementGuid>76c982d5-3cea-4dcc-9e3f-d4d6ccab5c1f</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]</value>
+      <webElementGuid>f5bbde58-75a7-4ffd-8c84-5d9883a3f4f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div</value>
-      <webElementGuid>de1dc00a-3707-4bae-be74-26a89fb71460</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div/div</value>
+      <webElementGuid>a74f6a14-6520-4b6c-b619-7d2a82b72fd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/div/div</value>
-      <webElementGuid>323656dd-2e63-4439-9850-c1a882bf0b6d</webElementGuid>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>937bd171-c89b-45ad-9922-3c6e417a53fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '師大資工線上申請系統=身分EN登入註冊' or . = '師大資工線上申請系統=身分EN登入註冊')]</value>
-      <webElementGuid>c513bab9-3548-4992-b3c2-90536ada30ae</webElementGuid>
+      <value>//div[(text() = '師大資工線上申請系統EN登入註冊' or . = '師大資工線上申請系統EN登入註冊')]</value>
+      <webElementGuid>439ee325-16ff-4314-add9-64a49a860c47</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

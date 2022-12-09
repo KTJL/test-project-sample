@@ -6,12 +6,12 @@
    <elementGuidId>c36dc64a-47a2-4b28-b8fc-6101f48cf628</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/form/div/div[3]/div/div[2]/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div/form/div/div[3]/div/div[2]/div/div</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>81454a76-6837-4f65-b9e2-c0001a8fc55f</webElementGuid>
+      <webElementGuid>0717dd86-6d3c-4674-9b26-c6b1d91fc341</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-form-item-feedback__line</value>
-      <webElementGuid>294efa6c-0fff-4042-93af-23685a1577e6</webElementGuid>
+      <webElementGuid>1c3428cf-fe31-4533-a32c-1f105f810fca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>text</name>
       <type>Main</type>
       <value>請輸入相同密碼</value>
-      <webElementGuid>130429e9-adad-4f8e-84af-3201f53a005c</webElementGuid>
+      <webElementGuid>a8f1d8c1-b8d0-44a9-9baa-50aafae43af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center pt-4 mx-auto md:w-2/3 max-w-11/12 lg:w-screen-md&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-space&quot;]/div[3]/div[@class=&quot;n-form-item __form-item-sl n-form-item--small-size n-form-item--left-labelled&quot;]/div[@class=&quot;n-form-item-feedback-wrapper&quot;]/div[@class=&quot;n-form-item-feedback n-form-item-feedback--error&quot;]/div[@class=&quot;n-form-item-feedback__line&quot;]</value>
-      <webElementGuid>92996133-f9c4-4899-afbc-27d08285ebac</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-space&quot;]/div[3]/div[@class=&quot;n-form-item n-form-item--small-size n-form-item--left-labelled&quot;]/div[@class=&quot;n-form-item-feedback-wrapper&quot;]/div[@class=&quot;n-form-item-feedback n-form-item-feedback--error&quot;]/div[@class=&quot;n-form-item-feedback__line&quot;]</value>
+      <webElementGuid>f06bdd8c-6ec7-4776-b2c0-0a5e17161e61</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div/form/div/div[3]/div/div[2]/div/div</value>
-      <webElementGuid>2ec62cd5-306a-466d-ba4b-45d20ae76ebd</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/form/div/div[3]/div/div[2]/div/div</value>
+      <webElementGuid>5aba1a13-117e-46af-ab6f-52da1ea26e58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='密碼確認'])[1]/following::div[11]</value>
-      <webElementGuid>b2c21544-1f24-44a8-9f81-32c8eae06292</webElementGuid>
+      <webElementGuid>9ac862eb-c7a9-419b-82ea-4c84ac32a970</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='姓名'])[1]/preceding::div[1]</value>
-      <webElementGuid>60b6fdf7-2095-416a-99b7-dc5ee9a624ce</webElementGuid>
+      <webElementGuid>448e5a5f-282e-4cdd-a9ee-d2adbfa52658</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='請輸入相同密碼']/parent::*</value>
-      <webElementGuid>4b9a6ead-6ff0-410c-b042-679153a86dc1</webElementGuid>
+      <webElementGuid>13b1fa03-d9f1-4d56-90f5-a028923228b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div</value>
-      <webElementGuid>720739e6-05ca-48e1-8922-152217e7f9d4</webElementGuid>
+      <webElementGuid>5d7e1cf0-21bf-483d-82d9-43cc43d013eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '請輸入相同密碼' or . = '請輸入相同密碼')]</value>
-      <webElementGuid>c2062ae8-cbb1-490a-95f3-7c87f46af107</webElementGuid>
+      <webElementGuid>606dad03-34c3-46ad-8cb8-65c90c0c57e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

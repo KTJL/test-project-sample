@@ -17,3 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/5系統管理員儀錶板/5.1verify 點擊使用者管理是否出現 usrManage Page'), [:], FailureHandling.STOP_ON_FAILURE)
+

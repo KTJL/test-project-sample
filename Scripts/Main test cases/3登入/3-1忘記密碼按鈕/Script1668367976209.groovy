@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/3登入/common-openLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Login_Page/div_forgotPswd'))
+WebUI.click(findTestObject('Login_Page/button_forgotPswd'))
 
 WebUI.verifyElementPresent(findTestObject('ForgotPswd_page/div_forgotPswdBox'), 0)
 

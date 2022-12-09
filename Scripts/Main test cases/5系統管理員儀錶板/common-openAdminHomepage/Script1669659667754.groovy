@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('常用case/openWeb'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Main test cases/3登入/3-4登入成功(系統管理員)'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('Admin/homepage/div_guidebar'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Admin/homepage/div_sidebar'), 0)

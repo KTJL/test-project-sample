@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_EN</name>
+   <name>button_forgotPswd</name>
    <tag></tag>
-   <elementGuidId>136b1bad-7e38-41cb-a435-ab6d22341601</elementGuidId>
+   <elementGuidId>13435eee-d810-4114-b5d3-1c9edf1076a3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>(//button[@type='button'])[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.n-button.n-button--default-type.n-button--medium-type.w-12</value>
+         <value>button.n-button.n-button--primary-type.n-button--medium-type</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1accc0a3-4389-47a9-adab-78e2061073b4</webElementGuid>
+      <webElementGuid>5521fdbd-d799-4ea3-842a-5d1e5ea0c764</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>n-button n-button--default-type n-button--medium-type w-12</value>
-      <webElementGuid>6f624582-1e27-434b-ad7e-1c4843e2bf1b</webElementGuid>
+      <value>n-button n-button--primary-type n-button--medium-type</value>
+      <webElementGuid>817590f6-7998-4f07-af0f-a8fea398f3d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>5bf248ff-12b3-42ff-bc1c-421bf95bd0c7</webElementGuid>
+      <webElementGuid>d99f1446-f9ed-46d9-87f7-c5374f0dd543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,70 +46,70 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>56c1e742-fa01-48a5-9592-eb4f7cbd9dbb</webElementGuid>
+      <webElementGuid>9f2a0a0e-ed84-42e7-825d-96437de27c11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>EN</value>
-      <webElementGuid>fd7246fd-29e6-471a-9ca1-373ee681060e</webElementGuid>
+      <value>忘記密碼</value>
+      <webElementGuid>d49c3171-38ab-47d1-a477-5d750852e50e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]/div[2]/template[@class=&quot;block&quot;]/template[@class=&quot;&lt;md:hidden md:block&quot;]/div[@class=&quot;n-space&quot;]/div[1]/button[@class=&quot;n-button n-button--default-type n-button--medium-type w-12&quot;]</value>
-      <webElementGuid>d9bcb852-4061-4a7a-a1d5-9abb9da88aeb</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;Login-Box&quot;]/div[@class=&quot;justify-center m-14 min-h-3/5&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-space&quot;]/div[3]/button[@class=&quot;n-button n-button--primary-type n-button--medium-type&quot;]</value>
+      <webElementGuid>2098aa06-30c3-46e3-b56f-83125ca89421</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>f397703a-ea18-4d95-97c9-2cfa03a8a097</webElementGuid>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>c0839641-91ed-44f0-bdc0-4202533de34b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div[2]/div/div/div/div[2]/template/template[2]/div/div/button</value>
-      <webElementGuid>1d678423-b526-4e68-8a60-8fe7ac9d63eb</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div/form/div/div[3]/button</value>
+      <webElementGuid>40ada56e-9931-404c-8411-4e2a0a0d4f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='師大資工線上申請系統'])[2]/following::button[2]</value>
-      <webElementGuid>13439a5b-6c66-4f36-b67d-69b319094fe2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請輸入密碼'])[1]/following::button[1]</value>
+      <webElementGuid>f254a6cd-6d7f-488e-9740-864145ef4b3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='登入'])[1]/preceding::button[1]</value>
-      <webElementGuid>ecae3cf2-dac1-4856-b7c1-53c0871d6ef2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='登入'])[3]/preceding::button[1]</value>
+      <webElementGuid>f4215be7-c705-4273-b18f-4e32e5217c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>861239e5-5f76-4964-b7a1-0f24e5a21b64</webElementGuid>
+      <value>//div[3]/button</value>
+      <webElementGuid>69466c9a-8da7-4772-a185-a1706dbcebaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'EN' or . = 'EN')]</value>
-      <webElementGuid>c92b4b46-a90a-49d4-b69e-fdbcd243a335</webElementGuid>
+      <value>//button[@type = 'button' and (text() = '忘記密碼' or . = '忘記密碼')]</value>
+      <webElementGuid>4a4a95b4-7b39-475e-9c1d-31eb97800808</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

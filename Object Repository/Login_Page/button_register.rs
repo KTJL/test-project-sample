@@ -6,12 +6,12 @@
    <elementGuidId>67e7e713-d740-4782-8c6a-16eebc315ab4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2a1430a0-73d4-469f-9d73-f96aa459a133</webElementGuid>
+      <webElementGuid>1300242a-9688-4861-b04f-dc6b0cc48b32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--info-type n-button--medium-type w-24</value>
-      <webElementGuid>feb767ef-2a6c-4d39-9792-a3c22e3228ea</webElementGuid>
+      <webElementGuid>98f01520-438c-49f8-9250-f05a4d6db478</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>2eed8b8f-5e87-405f-8381-06c6805ad113</webElementGuid>
+      <webElementGuid>c2b356bf-5275-46c5-a873-cc2177b1fb2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8eb1a754-4e58-4e12-8264-649e6b0c10ad</webElementGuid>
+      <webElementGuid>0570b7a6-f6f3-401e-9c34-5859f91a43fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,31 +54,31 @@
       <name>text</name>
       <type>Main</type>
       <value>註冊</value>
-      <webElementGuid>93e9f0d2-5ce9-4738-8632-7edca4b4c9c5</webElementGuid>
+      <webElementGuid>c0c18f4e-a61b-4c9a-852d-f1bca1ece461</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]/div[2]/template[@class=&quot;block&quot;]/template[@class=&quot;&lt;md:hidden md:block&quot;]/div[@class=&quot;n-space&quot;]/div[4]/a[1]/button[@class=&quot;n-button n-button--info-type n-button--medium-type w-24&quot;]</value>
-      <webElementGuid>5f0f9d21-7670-4f83-95c7-052257425d20</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]/div[2]/template[@class=&quot;block&quot;]/template[@class=&quot;&lt;md:hidden md:block&quot;]/div[@class=&quot;n-space&quot;]/div[3]/a[1]/button[@class=&quot;n-button n-button--info-type n-button--medium-type w-24&quot;]</value>
+      <webElementGuid>3983cae3-0a6b-40da-918f-4a041fb8a477</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>7861ec59-9a92-4e2b-8b0f-5935bd538b78</webElementGuid>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>3ab7f81e-bf3b-4b57-a215-0065bd83e9fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div[2]/template/template[2]/div/div[4]/a/button</value>
-      <webElementGuid>7951774c-46f3-41a8-8421-4b4ca495f3eb</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div/div/div[2]/template/template[2]/div/div[3]/a/button</value>
+      <webElementGuid>0bf5ca36-1f42-4d0e-9635-04979c2fc654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登入'])[1]/following::button[1]</value>
-      <webElementGuid>ef263e2d-b979-4326-bec0-3b7a4ae48499</webElementGuid>
+      <webElementGuid>55455ec0-94cb-425f-826b-a9afe1081269</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::button[2]</value>
-      <webElementGuid>e832fca8-5c1c-4f27-b904-05df90c8d6b4</webElementGuid>
+      <webElementGuid>ae050b3b-312b-4cbb-a3a9-5d122677597b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,15 +102,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登入'])[2]/preceding::button[1]</value>
-      <webElementGuid>b3a87912-906c-483b-9ee9-810401c45716</webElementGuid>
+      <webElementGuid>394d0b04-432b-4be4-abea-23a263ff6b84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/a/button</value>
-      <webElementGuid>96952602-03ae-4299-b20b-8ffd6f791a2c</webElementGuid>
+      <value>//div[3]/a/button</value>
+      <webElementGuid>b97140f3-7057-463a-9fc9-d856cea2f54d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '註冊' or . = '註冊')]</value>
-      <webElementGuid>1b67e7cf-3e8d-4978-894c-b4271cbdb49b</webElementGuid>
+      <webElementGuid>bc2487be-08c3-4b91-a241-90d90ca21807</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

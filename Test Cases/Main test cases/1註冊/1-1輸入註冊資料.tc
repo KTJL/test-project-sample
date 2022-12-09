@@ -59,6 +59,12 @@
       <value></value>
       <variableId>8fb1f018-07ea-4039-9fdb-1c2a476b2184</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cccef41e-5b62-4a6b-8474-52abd5961195</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'testmail@mail.com\r\n'</defaultValue>
       <description></description>
@@ -113,7 +119,7 @@
       <description></description>
       <id>739e7437-25ed-40db-980d-73e023d95560</id>
       <masked>false</masked>
-      <name>school</name>
+      <name>school_list</name>
    </variable>
    <variable>
       <defaultValue>'testpswd'</defaultValue>
@@ -121,5 +127,12 @@
       <id>8fb1f018-07ea-4039-9fdb-1c2a476b2184</id>
       <masked>false</masked>
       <name>confirm_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'testschool'</defaultValue>
+      <description></description>
+      <id>cccef41e-5b62-4a6b-8474-52abd5961195</id>
+      <masked>false</masked>
+      <name>school</name>
    </variable>
 </TestCaseEntity>

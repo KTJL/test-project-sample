@@ -6,12 +6,12 @@
    <elementGuidId>e180a03e-8714-4700-b738-02897c229061</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.n-card__content</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div</value>
+         <key>CSS</key>
+         <value>div.n-card__content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fd71a648-b497-4cd1-89a3-e765752bd0f7</webElementGuid>
+      <webElementGuid>06db9480-b6ad-4c29-aa7e-af9a0ef2c765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-card__content</value>
-      <webElementGuid>43473418-7bb8-4847-b918-097d1dd70ba6</webElementGuid>
+      <webElementGuid>0cae40d3-528e-4d0b-a552-cee9217618e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>46d4c210-ef01-49f3-9b7c-c13a0ce8be50</webElementGuid>
+      <webElementGuid>6062d63d-b475-4128-9c45-a564bfe9c83c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,23 +46,23 @@
       <name>text</name>
       <type>Main</type>
       <value>註冊電子信箱 * 密碼 * 密碼確認 * 姓名 * 生日 *電話 * 手機 * 地址 * 身分證字號 * 就讀學校 *註冊</value>
-      <webElementGuid>3d6ae326-bcb4-4de9-aa79-b4c1419d1632</webElementGuid>
+      <webElementGuid>23d9a5b5-a74f-47e3-b361-903f89d20713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center pt-4 mx-auto md:w-2/3 max-w-11/12 lg:w-screen-md&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]</value>
-      <webElementGuid>935d71fa-63f8-437b-ae30-5a6f7ed71acd</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]</value>
+      <webElementGuid>56e4b6e7-9ff7-4dd7-ba1d-de6d220094d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div</value>
-      <webElementGuid>b0fcec76-af75-4ff4-a862-1131e8518327</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>7fee26f9-0cdc-42ed-a7d0-9ecafdf853b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='註冊'])[1]/following::div[8]</value>
-      <webElementGuid>b9af51c7-0563-4c0e-8b36-b9fc2de2d076</webElementGuid>
+      <webElementGuid>aac107ed-e41c-4146-a2a4-ac6e2e3e818c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登入'])[1]/following::div[12]</value>
-      <webElementGuid>3dfe0a5f-230d-4991-a76c-1ac8e9139a97</webElementGuid>
+      <webElementGuid>4520ae46-5215-464f-88d4-964f5999f56e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div</value>
-      <webElementGuid>188b68c1-82a4-4244-b0ec-94076a0ec553</webElementGuid>
+      <value>//div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>93092a6b-ab8d-4da1-94cf-0b7e3024f8d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '註冊電子信箱 * 密碼 * 密碼確認 * 姓名 * 生日 *電話 * 手機 * 地址 * 身分證字號 * 就讀學校 *註冊' or . = '註冊電子信箱 * 密碼 * 密碼確認 * 姓名 * 生日 *電話 * 手機 * 地址 * 身分證字號 * 就讀學校 *註冊')]</value>
-      <webElementGuid>d1bd4411-5345-47ac-a68f-fa27fb89c0b9</webElementGuid>
+      <webElementGuid>ee184b42-2871-49f3-a652-458a16c19f6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
