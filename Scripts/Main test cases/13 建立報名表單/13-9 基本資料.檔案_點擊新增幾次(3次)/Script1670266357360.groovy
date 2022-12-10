@@ -31,7 +31,3 @@ for (def index : (0..2)) {
 
 WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addNewitem'))
 
-for (def index : (0..2)) {
-    WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_delete'))
-}
-

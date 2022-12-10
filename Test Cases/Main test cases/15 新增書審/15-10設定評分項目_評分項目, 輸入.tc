@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>15-10設定評分項目_評分項目, 輸入</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2879ca07-26d5-47ca-9096-91cb31777809</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00169930-8a6f-4673-b8e1-0fd71598ac63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5786d203-59fb-456c-9917-af07ea5cbe48</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>00169930-8a6f-4673-b8e1-0fd71598ac63</id>
+      <masked>false</masked>
+      <name>score_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>5786d203-59fb-456c-9917-af07ea5cbe48</id>
+      <masked>false</masked>
+      <name>weight</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>15-12設定評分項目_評分項目, 輸入, 字串(含中英文數字)長度大於256</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3b79c6d-aea2-4233-9941-22de170d96c1</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>3b9d83f2-341f-454e-bf1d-beef5c82a871</id>
+      <masked>false</masked>
+      <name>score_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>1bcbb483-baaa-4f8a-a319-393cce3c54c6</id>
+      <masked>false</masked>
+      <name>weight</name>
+   </variable>
+</TestCaseEntity>

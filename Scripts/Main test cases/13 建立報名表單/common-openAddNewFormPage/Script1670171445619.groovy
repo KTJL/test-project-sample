@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/12 設定新計畫/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
+programName = WebUI.getText(findTestObject('ProgramManager/UnstartedProjectPage/h1_programName'))
+println(programName);
+
 WebUI.click(findTestObject('ProgramManager/UnstartedProjectPage/button_createform'))
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_addApplyFormModal'), 0)

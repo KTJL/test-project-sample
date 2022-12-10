@@ -6,15 +6,19 @@
    <elementGuidId>14a6b897-861f-4ab2-a691-edf27c3c25fa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='逕取'])[1]/following::div[8]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = '分配評分工作' or . = '分配評分工作')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c9212dc2-1f40-488c-ab09-f1436ade9ca7</webElementGuid>
+      <webElementGuid>b0fbc164-c31f-4337-a644-ec2e2860f617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>60cba9c5-b04a-4979-aabe-c481ec7999ba</webElementGuid>
+      <webElementGuid>a7d9faa0-68e5-424e-a927-c12e13782fd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>分配評分工作</value>
-      <webElementGuid>ca12c2ad-847a-4731-aa97-08ecb807f862</webElementGuid>
+      <webElementGuid>bc277119-5092-4934-af31-41f1a6967950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement&quot;]/div[@class=&quot;n-collapse-item__header&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>0d479315-5d36-4021-afbf-1fb8c8d1e7cd</webElementGuid>
+      <webElementGuid>f9c3e4c3-4a20-465c-ac29-5b3b568da362</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='逕取'])[1]/following::div[8]</value>
-      <webElementGuid>dcd8e9ab-22b7-4ec7-bad2-115cba932434</webElementGuid>
+      <webElementGuid>d3a76ccb-8202-44af-afe5-b7bbd28a97d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[5]</value>
-      <webElementGuid>558459c7-7ec2-431c-9f6b-01699b5a6c58</webElementGuid>
+      <webElementGuid>7fc1d4ce-f990-42b3-ba34-49272ebcd69e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='分配評分工作']/parent::*</value>
-      <webElementGuid>4dedd6a1-4bc0-44ee-bb17-10e3268c0fa0</webElementGuid>
+      <webElementGuid>5f094e78-66fd-45ae-bed1-39cefc0e1eaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div</value>
-      <webElementGuid>3b2b9e7c-355a-4bc4-861f-c1903bbdc26e</webElementGuid>
+      <webElementGuid>1fb6f5d3-09b0-4c59-91e1-d3e0a2a2ca2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '分配評分工作' or . = '分配評分工作')]</value>
-      <webElementGuid>627a5467-9973-45d1-818f-506565788ccd</webElementGuid>
+      <webElementGuid>2ca68cd9-059f-43d2-b9d9-13d49e3714eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

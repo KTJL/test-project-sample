@@ -6,12 +6,16 @@
    <elementGuidId>b2bbee2f-5f2e-43c7-bfbe-5759a71380a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[4]/div/div/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.n-modal-mask</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-modal-mask&quot;][count(. | //*[@aria-hidden = 'true' and @class = 'n-modal-mask']) = count(//*[@aria-hidden = 'true' and @class = 'n-modal-mask'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a8ef92f0-6eb9-456d-a453-0d51976585d0</webElementGuid>
+      <webElementGuid>492adbd9-57c0-408e-9e30-dc4fe5b5660c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1423f0aa-4cff-4dbf-894b-cd07cbb86816</webElementGuid>
+      <webElementGuid>19aba335-76be-4982-8205-6a1982ac54e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-modal-mask</value>
-      <webElementGuid>6d964b5e-324d-4647-8eb5-9f9b860be225</webElementGuid>
+      <webElementGuid>466f2bdd-a540-4339-9999-4c47f2170fa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,14 +50,14 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-modal-mask&quot;]</value>
-      <webElementGuid>a43ba7e0-dc48-47b8-99b8-8e502ca43073</webElementGuid>
+      <webElementGuid>27ce5b96-c06e-452e-8499-a1573f2f7269</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/div/div</value>
-      <webElementGuid>fd9df942-d333-4e78-9ac7-d1ce7bc199d7</webElementGuid>
+      <value>//div[2]/div/div/div/div/div</value>
+      <webElementGuid>53cef630-fdf3-40f2-bb7f-a65b2630523f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

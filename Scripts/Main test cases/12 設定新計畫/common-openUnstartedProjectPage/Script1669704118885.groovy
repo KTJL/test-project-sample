@@ -23,6 +23,10 @@ WebUI.click(findTestObject('ProgramManager/HomePage/div_unstart'))
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_unstartList'), 0)
 
+def h = WebUI.getElementHeight(findTestObject('ProgramManager/HomePage/div_unstartList'))
+
+assert(h > 10);
+
 WS.comment('select a program')
 
 WebUI.delay(3)

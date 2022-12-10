@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>15-13設定評分項目_評分項目, 輸入,輸入欄空白即送出</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84cba6e4-4def-42b2-966b-c803f0ec53d8</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>60f0124e-4ff7-4a0d-9a79-959dc7247f3a</id>
+      <masked>false</masked>
+      <name>score_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>1e2ebde7-5b20-4513-a518-373facaceb6a</id>
+      <masked>false</masked>
+      <name>weight</name>
+   </variable>
+</TestCaseEntity>

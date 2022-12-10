@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]</value>
+         <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;][count(. | //*[@class = 'n-card__content']) = count(//*[@class = 'n-card__content'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3deed3ab-3be4-44dd-ada2-c7aa6fd20b72</webElementGuid>
+      <webElementGuid>39e4c3a4-a1f5-4643-b53e-cdd0603ca307</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>n-card__content</value>
-      <webElementGuid>853c2c44-deba-4422-8d03-4090655e9910</webElementGuid>
+      <webElementGuid>b3e39ac4-ee6d-46d0-9d44-f060e35fc6b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>d81008a3-0c49-4614-857e-dc2c9a2de6f4</webElementGuid>
+      <webElementGuid>67eb5bb0-ec70-4a73-999e-5d35bae81d0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>新增書審選擇書審委員全選共 0 項請輸入沒有資料已選 0 項沒有資料評分項目申請人資格確認分配評分工作新增</value>
-      <webElementGuid>7cd5011c-639c-48b8-ba52-03013920bbc1</webElementGuid>
+      <webElementGuid>93ef61f7-d2e9-4741-81fc-2469a6a0a1a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]</value>
-      <webElementGuid>a3b4874c-bc70-437d-b352-3a36c7c0a29e</webElementGuid>
+      <webElementGuid>fd639dd8-95e3-4833-8178-3b18b8ced629</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[10]</value>
-      <webElementGuid>e7eef02a-51f5-4c65-85ae-14938a78fe9b</webElementGuid>
+      <webElementGuid>664d8b9e-83f8-40ab-a25c-22614d519558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[10]</value>
-      <webElementGuid>02b4206c-f428-4a26-8b8c-1d20e991a983</webElementGuid>
+      <webElementGuid>f4e2146c-912a-42fd-9f1e-b1edb3d7d6b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/div/div/div[3]/div</value>
-      <webElementGuid>1883e973-7f63-4d88-8e66-d23bf6931ac9</webElementGuid>
+      <webElementGuid>35ca3119-0246-4072-bef7-21b61be17c18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '新增書審選擇書審委員全選共 0 項請輸入沒有資料已選 0 項沒有資料評分項目申請人資格確認分配評分工作新增' or . = '新增書審選擇書審委員全選共 0 項請輸入沒有資料已選 0 項沒有資料評分項目申請人資格確認分配評分工作新增')]</value>
-      <webElementGuid>fc3e3b0e-cb0a-4fe1-8a50-99351391b809</webElementGuid>
+      <webElementGuid>8d19df2e-5e1e-4046-8613-138e4493149b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

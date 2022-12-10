@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>13-15 日期_開始日期與結束日期同一時間</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>daad5543-7863-42ca-8e51-8aebc85068bc</testCaseGuid>
+   <variable>
+      <defaultValue>'2022-12-01 07:12:30'</defaultValue>
+      <description></description>
+      <id>c4666668-ee3c-4c1d-b971-114c7cd51c83</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'2022-12-31 08:12:30'</defaultValue>
+      <description></description>
+      <id>1e942a09-b5ae-4048-9848-e1e028e15a85</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variable>
+</TestCaseEntity>

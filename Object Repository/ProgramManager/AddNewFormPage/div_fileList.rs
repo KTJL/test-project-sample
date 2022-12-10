@@ -6,15 +6,19 @@
    <elementGuidId>4c8392e0-3f8d-4c7b-bf6b-16edeb266dfb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.n-card__content > div.n-collapse > div.n-collapse-item.n-collapse-item--left-arrow-placement.n-collapse-item--active > div.n-collapse-item__content-wrapper > div.n-collapse-item__content-inner</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[2]/div[2]/div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.n-card__content > div.n-collapse > div.n-collapse-item.n-collapse-item--left-arrow-placement.n-collapse-item--active > div.n-collapse-item__content-wrapper > div.n-collapse-item__content-inner</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;][count(. | //*[@class = 'n-collapse-item__content-inner']) = count(//*[@class = 'n-collapse-item__content-inner'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,31 +26,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>298517f6-067d-48c7-b7f0-0fd55df6b732</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>n-collapse-item__content-inner</value>
-      <webElementGuid>a771454b-d98e-4b4a-abea-70228cab5647</webElementGuid>
+      <webElementGuid>7c08930f-abe5-4ab9-86f2-446d9d8088ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value> 新增項目</value>
-      <webElementGuid>3c5551ca-5be8-4323-ae6c-2e0a387a02bb</webElementGuid>
+      <value>n-collapse-item__content-inner</value>
+      <webElementGuid>d916cff9-f565-49d2-b8af-366f2bb86f05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 新增項目</value>
+      <webElementGuid>ac094b79-bec8-45aa-b86b-efae1d5002ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]</value>
-      <webElementGuid>97675d00-6aea-491e-a79b-9b1a22ea9ea3</webElementGuid>
+      <webElementGuid>434f5286-9946-4535-99f3-60a39775e591</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>c79f2227-d50f-44e4-b202-7b276814b726</webElementGuid>
+      <webElementGuid>840244bb-3b34-4b12-bf60-0dfd4fc049d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' 新增項目' or . = ' 新增項目')]</value>
-      <webElementGuid>1e39b56c-73ef-4edc-b9f9-92451c9b9d2b</webElementGuid>
+      <webElementGuid>3fcaaa04-f5fd-41e9-8e60-552c8d8ce1b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

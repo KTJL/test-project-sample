@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>13-14 日期_結束日期在開始日期前</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48bd274a-f764-47ea-a6bf-32c69febfb95</testCaseGuid>
+   <variable>
+      <defaultValue>'2022-12-01 07:12:30'</defaultValue>
+      <description></description>
+      <id>c4666668-ee3c-4c1d-b971-114c7cd51c83</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'2022-12-31 08:12:30'</defaultValue>
+      <description></description>
+      <id>1e942a09-b5ae-4048-9848-e1e028e15a85</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variable>
+</TestCaseEntity>

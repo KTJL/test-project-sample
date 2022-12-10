@@ -9,4 +9,9 @@
       <initValue>'https://ntnu.jw910731.me/login'</initValue>
       <name>WebURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test_program'</initValue>
+      <name>programName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

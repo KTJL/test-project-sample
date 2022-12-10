@@ -6,15 +6,19 @@
    <elementGuidId>64eceacd-850e-473c-af9b-a28baaa46a19</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='逕取'])[1]/following::div[3]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = '申請人資格確認' or . = '申請人資格確認')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>196a703c-539a-4385-8f24-06f1adc5945b</webElementGuid>
+      <webElementGuid>b15297c0-fdd7-488a-8ed6-dc0039e743b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>facfd61f-58d4-4283-b688-4190dde55636</webElementGuid>
+      <webElementGuid>e8964e43-c22a-4cf1-b429-ea7d43d08d04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>申請人資格確認</value>
-      <webElementGuid>b11c59d1-6554-4826-821a-c177346d59c3</webElementGuid>
+      <webElementGuid>ec0c867e-66d1-4209-9f2e-fe04b9446c47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement&quot;]/div[@class=&quot;n-collapse-item__header&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>02d814c3-1a08-4dcc-b0a7-eff2171416a3</webElementGuid>
+      <webElementGuid>0aa764bd-d214-4c29-b543-844b7222ac27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='逕取'])[1]/following::div[3]</value>
-      <webElementGuid>60e24955-6780-42f5-841e-c4e7b7acbb22</webElementGuid>
+      <webElementGuid>b72a7d58-2612-4196-a5d1-0d570d40be18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦'])[1]/following::div[7]</value>
-      <webElementGuid>85640c8d-b86b-4b78-8027-be000ee80185</webElementGuid>
+      <webElementGuid>f29cfa73-0ef4-4cd8-92b4-e113dc00b6ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[10]</value>
-      <webElementGuid>2c5611ee-950f-4660-b52a-e7b364295b4f</webElementGuid>
+      <webElementGuid>526d8cb1-4cf3-4d40-a21e-46c634edff1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='申請人資格確認']/parent::*</value>
-      <webElementGuid>3bd8b497-ede9-48cd-aea7-72a373311616</webElementGuid>
+      <webElementGuid>e54196c4-9b3b-4007-b00b-908222287780</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[3]/div/div</value>
-      <webElementGuid>f3b8b38f-491c-4f24-8955-5e391f33fb94</webElementGuid>
+      <webElementGuid>0c2990d3-03f5-41ac-b070-dfed5814b545</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '申請人資格確認' or . = '申請人資格確認')]</value>
-      <webElementGuid>012d89d5-9c56-45cb-8a88-c955a1d208e4</webElementGuid>
+      <webElementGuid>9fa75358-d707-45b3-90aa-b5408935257f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
