@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8422d635-10d2-400f-80e8-439dd065cf6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b97f6da1-386d-4135-aab4-746312cc105c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2aa0feaa-75c3-4b8c-9459-afadc0f8101c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>b97f6da1-386d-4135-aab4-746312cc105c</id>
+      <masked>false</masked>
+      <name>BI_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'fileName'</defaultValue>
+      <description></description>
+      <id>2aa0feaa-75c3-4b8c-9459-afadc0f8101c</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
 </TestCaseEntity>

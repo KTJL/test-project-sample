@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('常用case/openWeb'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login_Page/input__account'), 'testPM01@gmail.com')
+WebUI.setText(findTestObject('Login_Page/input__account'), 'testPM02@mail.com')
 
-WebUI.setText(findTestObject('Login_Page/input__password'), 'testPM01')
+WebUI.setText(findTestObject('Login_Page/input__password'), 'testPM02')
 
 WebUI.click(findTestObject('Login_Page/button_login_mid'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMdescription_'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/button_addProject'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMguidebar'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_sidebar'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/svg_addprojectbutton'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMdescription'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div__opensidebar'), 0)
 

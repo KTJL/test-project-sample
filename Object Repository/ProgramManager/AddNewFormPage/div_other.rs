@@ -3,18 +3,22 @@
    <description></description>
    <name>div_other</name>
    <tag></tag>
-   <elementGuidId>13e5b6f4-9b4a-4855-a4db-7918b6333c43</elementGuidId>
+   <elementGuidId>09bb8638-a55d-42d9-8de2-3583bd6de02b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.n-card__content > div.n-collapse > div.n-collapse-item.n-collapse-item--left-arrow-placement.n-collapse-item--active > div.n-collapse-item__header.n-collapse-item__header--active > div.n-collapse-item__header-main</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='新增項目'])[1]/following::div[6]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦信'])[1]/preceding::div[7]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '其他' or . = '其他')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e28ad51c-8aea-4fce-902d-3626801082c2</webElementGuid>
+      <webElementGuid>2bc49d36-2496-4562-a9ee-7fe65ea8ce46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>d805e889-e228-4771-949f-a81f02082739</webElementGuid>
+      <webElementGuid>e7a8f4ad-db6d-4853-8d8d-a8add6e0b993</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,31 +42,31 @@
       <name>text</name>
       <type>Main</type>
       <value>其他</value>
-      <webElementGuid>5391e19d-52a1-4f56-a1b4-723b66cd37b5</webElementGuid>
+      <webElementGuid>d830977d-ecca-4f5c-aab8-b4871ad5400f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 md:w-2/3 max-w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement&quot;]/div[@class=&quot;n-collapse-item__header&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>32c14d3a-6d47-4546-a812-00ab44f22958</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__header n-collapse-item__header--active&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
+      <webElementGuid>c7e1a40b-5cbe-47cc-9bcd-1f6937b3eee7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='新增項目'])[1]/following::div[6]</value>
-      <webElementGuid>496a079d-6624-42ab-a797-fe2a4455332e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='推薦信'])[1]/preceding::div[7]</value>
+      <webElementGuid>0dcdc4c4-782f-4d41-bdee-6bc1ce8d7a52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[17]</value>
-      <webElementGuid>55cf9dd9-9998-4585-bd59-de42460025e8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[24]</value>
+      <webElementGuid>08485e22-b0d2-47b7-a746-1e376d92702b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='其他']/parent::*</value>
-      <webElementGuid>33d42154-775f-4ffd-9ce9-8fdffbcffae0</webElementGuid>
+      <webElementGuid>eb372a2e-f012-4b4f-a3c2-ddab7e867d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[3]/div/div</value>
-      <webElementGuid>9725f623-1b54-4816-a9d4-7c963768f9eb</webElementGuid>
+      <webElementGuid>996bba82-924d-45ef-b123-44d2043e1605</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '其他' or . = '其他')]</value>
-      <webElementGuid>9292b003-afe2-4329-8c58-0cc8f27d74ee</webElementGuid>
+      <webElementGuid>eb7a2dd5-5dc3-416c-bf46-d7b787881d96</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>div_choose_docreviewer</name>
    <tag></tag>
-   <elementGuidId>13448101-1b9f-409b-83ca-01b927c4274d</elementGuidId>
+   <elementGuidId>e984725d-9834-4a9d-97fc-40e4b7fbd12b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1201866b-e855-4371-a44a-8f8f74f571d1</webElementGuid>
+      <webElementGuid>619f44a9-63ef-40a6-ab94-e6141c415a15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>fd97c8af-4dc7-4aa3-b69b-d0538400d002</webElementGuid>
+      <webElementGuid>ab83a16e-cb4c-4801-a516-4ff181145d67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>text</name>
       <type>Main</type>
       <value>選擇書審委員</value>
-      <webElementGuid>c34c8c03-9daf-4b16-9471-3385aef32a48</webElementGuid>
+      <webElementGuid>83216eea-dcde-4be3-9b51-2f2f42e28340</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 md:w-2/3 max-w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__header n-collapse-item__header--active&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>ae942692-9351-495a-a98f-c57b7349d2fa</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__header n-collapse-item__header--active&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
+      <webElementGuid>a09b53f6-fd8f-48e3-b702-d64feb3af885</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增書審'])[1]/following::div[4]</value>
-      <webElementGuid>31d79559-dfd5-49f9-a76d-0b5c010a21ba</webElementGuid>
+      <webElementGuid>9074ca5c-1702-4efa-9b85-364a0f97ffab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[15]</value>
-      <webElementGuid>c3025db5-acde-4d50-8b8a-62716f9d2f49</webElementGuid>
+      <webElementGuid>78505bc9-5e11-4522-8c4d-c6c5620c51de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='全選'])[1]/preceding::div[3]</value>
-      <webElementGuid>0cb8aa89-ff21-4f68-8702-3a56ace1dfbb</webElementGuid>
+      <webElementGuid>417ad524-abdc-4f12-80b1-68ad22dbec96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='共 100 項'])[1]/preceding::div[4]</value>
-      <webElementGuid>b834c2ff-cf22-45b8-8b15-624aeabf1240</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='共 0 項'])[1]/preceding::div[4]</value>
+      <webElementGuid>7bf3800a-d4b0-482b-972b-a2ee1af350ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='選擇書審委員']/parent::*</value>
-      <webElementGuid>e37721c3-b08f-421c-8376-78d3f7eb50a6</webElementGuid>
+      <webElementGuid>1851d722-97db-4db8-b0c3-23124859c6bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/div</value>
-      <webElementGuid>807630e6-b9d8-4160-9d43-780708f0b5a1</webElementGuid>
+      <webElementGuid>68752a9b-567e-4830-9c52-784c788834f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '選擇書審委員' or . = '選擇書審委員')]</value>
-      <webElementGuid>a5d192c5-bb1c-44dc-9bd3-2b9c45b712a5</webElementGuid>
+      <webElementGuid>80dba62a-5677-45f8-83a8-52d70a49209d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

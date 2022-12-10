@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>acebf2fd-18ce-4f88-ba70-67ecba8117ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b97f6da1-386d-4135-aab4-746312cc105c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testName'</defaultValue>
+      <description></description>
+      <id>b97f6da1-386d-4135-aab4-746312cc105c</id>
+      <masked>false</masked>
+      <name>BI_item</name>
+   </variable>
 </TestCaseEntity>

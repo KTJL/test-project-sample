@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>摺疊面板_verify 是否能正常收闔</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2bbb0ce-f697-4cb9-8cd5-356ca11c2b11</testCaseGuid>
+</TestCaseEntity>

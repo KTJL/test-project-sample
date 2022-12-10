@@ -19,63 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openAddNewFormPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'))
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_basicInfo_addItem'))
 
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'), 0)
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addNewitem'))
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_basicobject'), 0)
+WebUI.setText(findTestObject('ProgramManager/AddNewFormPage/input__BI_name'), 'first')
 
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/div__nolimit'))
-
-WebUI.setText(findTestObject('ProgramManager/AddNewFormPage/div__basicname'), '測試testbasic01')
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_basicadd'))
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_new_basicobject'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_basicadd'))
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_new_basicobject'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_basicadd'))
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_new_basicobject'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_basicmovedown'))
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_basicmovedown'))
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_basicmovedown'))
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_openfile'))
-
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/div_basicobject'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/button_addfile'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addfile'))
-
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/button_addfile'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_fileobject'), 0)
-
-WebUI.setText(findTestObject('ProgramManager/AddNewFormPage/div__filename'), '測試testfile01')
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_fileadd'))
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_new_fileobject'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_fileadd'))
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_new_fileobject'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_fileadd'))
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_new_fileobject'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_filemovedown'))
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_filemovedown'))
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_filemovedown'))
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_Movedown'))
 

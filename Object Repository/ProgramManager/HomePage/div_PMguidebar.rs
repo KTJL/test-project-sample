@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div</value>
+         <value>//div[@id='app']/div/div/div[2]/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>93a59994-4fbb-47da-9fc8-bd6901e1951a</webElementGuid>
+      <webElementGuid>3aeb274a-6eca-46a4-8dd3-47e41a20c615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>933f95c8-3ea7-487a-bb6c-4394648d9f17</webElementGuid>
+      <webElementGuid>657f6f85-ef84-43cb-8df0-e7d12915b66e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-space</value>
-      <webElementGuid>065268b4-3a26-46a9-afa2-03c1ac03c757</webElementGuid>
+      <webElementGuid>e18a6561-9c87-459f-b775-1c3bc172ca92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>h</name>
       <type>Main</type>
       <value>full</value>
-      <webElementGuid>b63e3b8d-ff8a-4959-b4de-dd1517b88bdb</webElementGuid>
+      <webElementGuid>13b6e768-a169-402c-9081-ed7612d909ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>max-w</name>
       <type>Main</type>
       <value>7xl</value>
-      <webElementGuid>cc692226-f2da-4006-9b3f-43fd7d55424c</webElementGuid>
+      <webElementGuid>91cd7f21-8699-4ba9-ba0b-f61682192a5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>m</name>
       <type>Main</type>
       <value>x-auto</value>
-      <webElementGuid>b6d0c2bc-c348-4ba4-8e59-48b3080f73c8</webElementGuid>
+      <webElementGuid>6d76db13-c72c-4925-b1d7-4ada69094109</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>p</name>
       <type>Main</type>
       <value>x-sm</value>
-      <webElementGuid>0dcd69f7-d412-454e-b896-ab062acbfd8d</webElementGuid>
+      <webElementGuid>6dfa123a-602f-46c1-a9f1-5de9b4fbc59d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,46 +78,46 @@
       <name>font</name>
       <type>Main</type>
       <value>bold</value>
-      <webElementGuid>db0e5a3b-33f7-4d52-9486-994532628936</webElementGuid>
+      <webElementGuid>a8e5ca32-e090-4bde-bb0b-6db0b6bd36fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>師大資工線上申請系統首頁=身分ENtestPM登出</value>
-      <webElementGuid>9e3c1663-67c6-4f59-be40-e45bead6f454</webElementGuid>
+      <value>師大資工線上申請系統首頁EN登出</value>
+      <webElementGuid>a41a4b0d-8750-45a9-985e-cbfc9237e1f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]</value>
-      <webElementGuid>e6a18070-de84-4976-a88a-324c7fa47a78</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]</value>
+      <webElementGuid>10659e51-cfeb-4454-9f83-9f42cfe992d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div</value>
-      <webElementGuid>a7a73379-f409-48f9-8977-be66f729475b</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div/div</value>
+      <webElementGuid>5eefdc1c-6311-43c5-936f-e60da2d1b535</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/div/div</value>
-      <webElementGuid>f271b0b5-59aa-4439-9eda-13cd0b4fb1b9</webElementGuid>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>45fffec4-f0ce-448c-9c94-00d337535274</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '師大資工線上申請系統首頁=身分ENtestPM登出' or . = '師大資工線上申請系統首頁=身分ENtestPM登出')]</value>
-      <webElementGuid>61459b63-a6a8-4b2a-ad33-614425a34b85</webElementGuid>
+      <value>//div[(text() = '師大資工線上申請系統首頁EN登出' or . = '師大資工線上申請系統首頁EN登出')]</value>
+      <webElementGuid>e546a5f8-cccd-47f9-9f76-bae0a6bec067</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

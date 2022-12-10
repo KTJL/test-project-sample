@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/3登入/common-openLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login_Page/input__account'), 'testPM02@email.com')
+WebUI.setText(findTestObject('Login_Page/input__account'), 'testPM02@mail.com')
 
 WebUI.setEncryptedText(findTestObject('Login_Page/input__password'), 'uVwC2IXTs/9RgwDOBZ6hIA==')
 
@@ -31,7 +31,7 @@ WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMguideba
 
 WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_sidebar'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/svg_addprojectbutton'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/button_addProject'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMdescription_'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/HomePage/div_PMdescription'), 0)
 

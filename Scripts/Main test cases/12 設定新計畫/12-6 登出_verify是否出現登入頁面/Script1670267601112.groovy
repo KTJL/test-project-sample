@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/12 設定新計畫/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('ProgramManager/UnstartedProjectPage/button_logout'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/div_loginbox'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Login_Page/div_guidebar'), 0)
+

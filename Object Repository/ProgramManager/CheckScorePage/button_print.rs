@@ -3,15 +3,15 @@
    <description></description>
    <name>button_print</name>
    <tag></tag>
-   <elementGuidId>c010442b-1e7e-41b8-9dca-a6fd53efa9d5</elementGuidId>
+   <elementGuidId>471e4e04-3947-40a5-bf15-b5e8c3bb30dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[20]</value>
+         <value>(//button[@type='button'])[19]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.n-card__content > div.n-space > div > button.n-button.n-button--default-type.n-button--medium-type</value>
+         <value>div.n-card__content > div.n-space > div > button.n-button.n-button--info-type.n-button--medium-type</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>abaade88-a68b-45db-9688-bf4e4db18a3a</webElementGuid>
+      <webElementGuid>e84c8618-588c-401e-9c59-9dfeda112658</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>n-button n-button--default-type n-button--medium-type</value>
-      <webElementGuid>adf0abd3-a682-4750-b18d-80b84d95f52b</webElementGuid>
+      <value>n-button n-button--info-type n-button--medium-type</value>
+      <webElementGuid>37cf490e-5205-4e14-9dd0-f2028e20fead</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e9a6172d-e03a-4ffb-b2ba-a5f6beca771f</webElementGuid>
+      <webElementGuid>0c7f1076-61f1-4228-95ca-a260f5580563</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ef7f62f7-8d77-485b-a620-7338b283cb3e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>extrahead</name>
-      <type>Main</type>
-      <value>'hi'</value>
-      <webElementGuid>5d182aed-a19a-426b-aee9-81f3f0f99a6e</webElementGuid>
+      <webElementGuid>a7b2c516-3cf2-4a2a-9c63-4290fbddf6dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,39 +54,39 @@
       <name>text</name>
       <type>Main</type>
       <value> 列印 </value>
-      <webElementGuid>8081bcaf-1606-4ebf-bcee-8a2ff20f3f90</webElementGuid>
+      <webElementGuid>b506d379-aaf3-4bd7-b730-43d6ddb14169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 md:w-2/3 max-w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-space&quot;]/div[1]/button[@class=&quot;n-button n-button--default-type n-button--medium-type&quot;]</value>
-      <webElementGuid>6f87a652-cdc5-4a06-a643-50bc7217550d</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-space&quot;]/div[1]/button[@class=&quot;n-button n-button--info-type n-button--medium-type&quot;]</value>
+      <webElementGuid>bdd7f77a-62ae-4016-bbea-867db1fcc392</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[20]</value>
-      <webElementGuid>d16ff3ca-c2db-4e39-898b-5c60d5ef8fb6</webElementGuid>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>15edb333-dcca-43f8-bfa2-0e7774245497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='備取人數'])[1]/following::button[3]</value>
-      <webElementGuid>8921caf1-9cd8-479f-906f-a18fa04d213d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='沒有資料'])[1]/following::button[1]</value>
+      <webElementGuid>c04d4c7b-4543-466a-85cc-31ed4c5efe75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='正取人數'])[1]/following::button[5]</value>
-      <webElementGuid>c31b100b-b29e-43c0-97f0-794de923f050</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='結果'])[1]/following::button[1]</value>
+      <webElementGuid>254dcfc5-fad5-4a68-be6e-a2a60e585156</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/button</value>
-      <webElementGuid>c413142e-adeb-41a6-bf2a-eedab155047e</webElementGuid>
+      <webElementGuid>68ac518f-5296-476c-9391-9ae6e734fa87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' 列印 ' or . = ' 列印 ')]</value>
-      <webElementGuid>0108782e-64c5-4869-8576-1cdf2fbd02d3</webElementGuid>
+      <webElementGuid>dfd79483-626a-45d9-9937-927e6b5f0721</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

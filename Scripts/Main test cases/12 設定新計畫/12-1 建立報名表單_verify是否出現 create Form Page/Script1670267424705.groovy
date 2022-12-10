@@ -17,33 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/12 設定新計畫/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ProgramManager/UnstartedProjectPage/button_createform'))
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/h1_title'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_addApplyFormModal'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/svg_openbasic'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/svg_openfile'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/svg_openother'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div__starttime'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/svg_arrow'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_endtime'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/path_deltime'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/button_finishadding'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_basic'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_file'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_other'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_dateNadd'), 0)
 

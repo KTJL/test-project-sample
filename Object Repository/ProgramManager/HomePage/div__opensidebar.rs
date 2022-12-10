@@ -6,12 +6,12 @@
    <elementGuidId>c06d4898-ee01-49e3-9d57-ab626bf77200</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.n-layout-toggle-button</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/aside/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[2]/div/div/aside/div[2]</value>
+         <key>CSS</key>
+         <value>div.n-layout-toggle-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9e22c03a-9702-40d6-a7cd-c7f5fda41461</webElementGuid>
+      <webElementGuid>9ba3f87a-54fa-4c14-ac0b-17438b642449</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +30,23 @@
       <name>class</name>
       <type>Main</type>
       <value>n-layout-toggle-button</value>
-      <webElementGuid>a50814a8-86ab-4517-9d60-bbe7baef5078</webElementGuid>
+      <webElementGuid>aa446184-5a9c-4c66-9e52-e38994450452</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[1]/aside[@class=&quot;n-layout-sider n-layout-sider--static-positioned n-layout-sider--left-placement n-layout-sider--bordered n-layout-sider--show-content&quot;]/div[@class=&quot;n-layout-toggle-button&quot;]</value>
-      <webElementGuid>d62b05c4-a745-4216-b6cc-87136be3302a</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[1]/aside[@class=&quot;n-layout-sider n-layout-sider--static-positioned n-layout-sider--left-placement n-layout-sider--bordered n-layout-sider--show-content&quot;]/div[@class=&quot;n-layout-toggle-button&quot;]</value>
+      <webElementGuid>837814b1-a117-4e31-a5bf-cfde6e660bb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[2]/div/div/aside/div[2]</value>
-      <webElementGuid>3265494b-1df4-482b-bd8a-d42884f0d03e</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/aside/div[2]</value>
+      <webElementGuid>f2cdd056-01e2-4e43-a1e5-359b64f11308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='建立新計畫'])[1]/following::div[5]</value>
-      <webElementGuid>a3465b52-4ac9-402f-b842-204d862d9b4e</webElementGuid>
+      <webElementGuid>f091f017-70a7-43fd-8169-b2658c58f35f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='請從左邊選取一項計畫檢視或新增一項計畫'])[1]/preceding::div[2]</value>
-      <webElementGuid>a3f91ffb-ca4e-4ac0-b7bf-eddbdc92c5ae</webElementGuid>
+      <webElementGuid>0ec3740a-bb4e-42c5-8fc4-5565114c51c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[13]</value>
-      <webElementGuid>af19973f-1e37-4e7a-bf1d-4b62b468c0cf</webElementGuid>
+      <webElementGuid>f06bdcbb-129a-4fa0-a77e-f21bba63ce96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//aside/div[2]</value>
-      <webElementGuid>b4840681-22af-4a6d-a62b-d60dceabf3b2</webElementGuid>
+      <webElementGuid>313e9506-be32-4564-9b8d-9fd02b9ca876</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

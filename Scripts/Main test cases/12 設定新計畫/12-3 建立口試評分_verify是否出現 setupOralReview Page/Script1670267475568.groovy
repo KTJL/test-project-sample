@@ -17,21 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/12 設定新計畫/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ProgramManager/UnstartedProjectPage/button_createoral'))
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/h1_createoral_title'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/button_oral_adding_finished'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/div_choose_oralreviewer'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/div_choose_oralreviewer_panel'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/div_oralapplicant_assign_num'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/div_oralapplicant_assign_order'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/div_oralscore_item'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewOralPage/div_createOralModal'), 0)
 

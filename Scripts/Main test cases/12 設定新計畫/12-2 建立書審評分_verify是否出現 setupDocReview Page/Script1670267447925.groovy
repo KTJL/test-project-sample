@@ -17,21 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/12 設定新計畫/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ProgramManager/UnstartedProjectPage/button_createdoc'))
 
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/div_createdocModal'), 0)
+
 WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/h1_createdoc_title'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/button_doc_adding_finished'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/div_assign_work'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/div_check_applicant'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/div_choose_docreviewer'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/div_choose_docreviewer_panel'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/div_docscore_item'), 0)
 

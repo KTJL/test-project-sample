@@ -17,17 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/12 設定新計畫/common-openUnstartedProjectPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ProgramManager/UnstartedProjectPage/button_checkscore'))
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/CheckScorePage/h1_checkscore_title'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/CheckScorePage/button_print'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/CheckScorePage/div__open_scorelist'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/CheckScorePage/div_score_list_forall'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/CheckScorePage/div_setup_peoplenum_scoreweight'), 0)
+WebUI.verifyElementPresent(findTestObject('ProgramManager/CheckScorePage/div_scoreModal'), 0)
 

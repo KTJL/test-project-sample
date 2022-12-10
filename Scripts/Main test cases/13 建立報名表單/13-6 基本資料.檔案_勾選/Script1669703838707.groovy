@@ -19,39 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openAddNewFormPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'))
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_basicInfo_addItem'))
 
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/button_addbasic'), 0)
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/input__Email'))
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_basicobject'), 0)
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/input__nonLimit'))
 
-WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__basic_bitian'))
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/input__NumberOnly'))
 
-WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__nolimit'))
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__checkbox_Must'))
 
-WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__onlynum'))
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/div_file'))
 
-WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__email'))
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_file_addItem'))
 
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_openfile'))
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__checkbox_Must'))
 
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/div_basicobject'), 0)
+WebUI.click(findTestObject('ProgramManager/AddNewFormPage/div_other'))
 
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/button_addfile'), 0)
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/button_addfile'))
-
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/button_addfile'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_fileobject'), 0)
-
-WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__file_bitian'))
-
-WebUI.click(findTestObject('ProgramManager/AddNewFormPage/svg_openother'))
-
-WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewFormPage/div_fileobject'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewFormPage/div_recommendletter'), 0)
-
-WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__recommendletter_yesorno'))
+WebUI.verifyElementClickable(findTestObject('ProgramManager/AddNewFormPage/div__checkboxRecommand'))
 
