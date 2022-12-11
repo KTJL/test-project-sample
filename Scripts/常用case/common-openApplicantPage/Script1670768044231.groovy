@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('常用case/common-openApplicantPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/3登入/common-openLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.comment('select program')
+WebUI.setText(findTestObject('Login_Page/input__account'), 'test01@mail.com')
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Login_Page/input__password'), 'test01')
 
-WebUI.verifyElementPresent(findTestObject('Applicant/FillForm/div_Formbox'), 0)
+WebUI.click(findTestObject('Login_Page/button_login_mid'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Applicant/Homepage/div_guidebar'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Applicant/Homepage/div_homepageBox'), 0)
 

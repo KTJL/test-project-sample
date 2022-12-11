@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_logout</name>
+   <name>button_recommand1</name>
    <tag></tag>
-   <elementGuidId>9fa25aad-30ac-409a-813d-7a4280254e84</elementGuidId>
+   <elementGuidId>b905e477-6662-4223-847c-eaf4944ad81c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.n-button.n-button--error-type.n-button--medium-type.w-min-24</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '登出' or . = '登出')]</value>
+         <value>div.n-form-item-blank > button.n-button.n-button--default-type.n-button--medium-type</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9adc53b9-ef6f-43e2-bb31-d8d8b611418b</webElementGuid>
+      <webElementGuid>d991e59a-c236-4dde-a9bf-bbed1779fa0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>n-button n-button--error-type n-button--medium-type w-min-24</value>
-      <webElementGuid>e80a4b3a-7012-4bf5-8f0d-88cf79305352</webElementGuid>
+      <value>n-button n-button--default-type n-button--medium-type</value>
+      <webElementGuid>2f8b9a27-ed5f-41a9-9e2c-e9328312d5ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>f99645f5-c597-4fdc-8e73-a5413d1d0996</webElementGuid>
+      <webElementGuid>a696e972-0087-4fe3-98cd-6855ebf71f02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,23 +46,23 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dbf42f6e-20e5-4640-b5c7-6504e77e3808</webElementGuid>
+      <webElementGuid>5a5db31c-a737-4f53-ad7a-2978e05a21e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>登出</value>
-      <webElementGuid>dddde98b-d0db-4b8d-a0f9-818d2c55bfea</webElementGuid>
+      <value>填寫推薦人1資料</value>
+      <webElementGuid>24475575-1fd3-414d-a94a-1de032f6ddaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout-header n-layout-header--static-positioned n-layout-header--bordered&quot;]/div[@class=&quot;n-space&quot;]/div[2]/template[@class=&quot;block&quot;]/template[@class=&quot;&lt;md:hidden md:block&quot;]/div[@class=&quot;n-space&quot;]/div[4]/button[@class=&quot;n-button n-button--error-type n-button--medium-type w-min-24&quot;]</value>
-      <webElementGuid>72f59a33-eabb-4a26-a4de-bfb2f48c6ecf</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-1/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-space&quot;]/div[1]/div[@class=&quot;n-form-item n-form-item--medium-size n-form-item--top-labelled&quot;]/div[@class=&quot;n-form-item-blank&quot;]/button[@class=&quot;n-button n-button--default-type n-button--medium-type&quot;]</value>
+      <webElementGuid>7755459c-107f-49f2-b94e-09f9f054d6f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,54 +70,54 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>e643003b-f015-47dc-a7fc-15d4db8051ca</webElementGuid>
+      <webElementGuid>fcb25bfd-51f9-40f0-9e71-6eb4795ea1da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div[2]/template/template[2]/div/div[4]/button</value>
-      <webElementGuid>24198cab-e6fd-428c-82d2-07238bce502c</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/form/div[7]/div/div/div/button</value>
+      <webElementGuid>657dd999-f63f-4ace-ae59-59b4787dc399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test02'])[1]/following::button[1]</value>
-      <webElementGuid>32b70352-0785-4b94-9283-5f64e2f407ca</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='請輸入'])[4]/following::button[1]</value>
+      <webElementGuid>a1666bee-b4ae-46a7-b001-b6926ecfd8fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::button[2]</value>
-      <webElementGuid>a3cbc506-c0a8-4c0a-9602-74ced6da99ef</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='email2'])[1]/following::button[1]</value>
+      <webElementGuid>084f6100-aff6-4439-a468-c4f886b57efd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mock Form'])[1]/preceding::button[1]</value>
-      <webElementGuid>7d09de10-2920-4fb8-ae1c-d6f544e4240c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='填寫推薦人2資料'])[1]/preceding::button[1]</value>
+      <webElementGuid>d9e38532-f3f7-4fbf-921b-e546878c176e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/button</value>
-      <webElementGuid>5df1a16f-9522-4dc8-a419-35dd3d99041b</webElementGuid>
+      <value>//div/div/div/button</value>
+      <webElementGuid>7d3ccdd3-754c-49ce-85ba-15172fca29d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = '登出' or . = '登出')]</value>
-      <webElementGuid>22e754ab-1ef9-47ee-ab53-195dad551c32</webElementGuid>
+      <value>//button[@type = 'button' and (text() = '填寫推薦人1資料' or . = '填寫推薦人1資料')]</value>
+      <webElementGuid>d3080cc0-2a0f-4e87-b9dd-68aa30515714</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

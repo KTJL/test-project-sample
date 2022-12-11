@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>29-10上傳檔案_verify是否成功上傳資料</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a189bea9-c68b-4ec6-b7b6-9ffdb2d976be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>247f5f3a-740a-406a-845c-69e9afd83830</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\NTNU HW\\大三上軟工\\test_uploadfile\\FinalProject.pdf'</defaultValue>
+      <description></description>
+      <id>247f5f3a-740a-406a-845c-69e9afd83830</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

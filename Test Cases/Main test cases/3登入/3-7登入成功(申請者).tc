@@ -18,14 +18,14 @@
       <variableId>348d05a1-537f-4f25-9e22-2f3659a31592</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'test_account\r\n'</defaultValue>
+      <defaultValue>'test01@mail.com'</defaultValue>
       <description></description>
       <id>9f126ac2-0425-4dac-8dcc-91015a39f7e3</id>
       <masked>false</masked>
       <name>account</name>
    </variable>
    <variable>
-      <defaultValue>'test_pswd\r\n'</defaultValue>
+      <defaultValue>'test01'</defaultValue>
       <description></description>
       <id>0e7ec3a4-c23c-4cea-86fd-647eef181f68</id>
       <masked>false</masked>

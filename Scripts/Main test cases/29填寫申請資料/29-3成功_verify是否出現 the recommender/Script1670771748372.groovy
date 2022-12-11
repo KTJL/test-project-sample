@@ -17,11 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('常用case/common-openApplicantPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/29填寫申請資料/common-openFillApplyForm'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.comment('select program')
+WebUI.click(findTestObject('Applicant/FillForm/button_recommand1'))
 
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('Applicant/FillForm/div_recommenderModal'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Applicant/FillForm/div_Formbox'), 0)
+WebUI.setText(findTestObject('Applicant/FillForm/input__recommandName'), name)
+
+WebUI.setText(findTestObject('Applicant/FillForm/input__recommandPhone'), phone)
+
+WebUI.setText(findTestObject('Applicant/FillForm/input__recommandEmail'), email)
+
+WebUI.setText(findTestObject('Applicant/FillForm/input__recommandOrg'), Org)
+
+WebUI.click(findTestObject('Applicant/FillForm/button_recommandConfirm'))
+
+WebUI.verifyElementNotPresent(findTestObject('Applicant/FillForm/div_recommenderModal'), 0)
+
+WebUI.verifyTextPresent(name, false)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>29-11上傳檔案 上傳非PDF檔案(doc, jpg, ppt, zip)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1530ff5-cf48-44ab-a1d6-13c10460ee13</testCaseGuid>
+   <variable>
+      <defaultValue>'D:\\NTNU HW\\大三上軟工\\test_uploadfile\\FinalProject.pdf'</defaultValue>
+      <description></description>
+      <id>247f5f3a-740a-406a-845c-69e9afd83830</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

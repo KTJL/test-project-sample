@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_recommenderModal</name>
+   <tag></tag>
+   <elementGuidId>c6a81ccd-63da-4e6a-9627-633dc639f3ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered n-modal min-w-1/3 md:w-1/2&quot;]/div[@class=&quot;n-card__content&quot;][count(. | //*[@class = 'n-card__content']) = count(//*[@class = 'n-card__content'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7893914f-1b83-493a-91a6-ad5b9771aa45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-card__content</value>
+      <webElementGuid>ff34b4b4-21a1-4198-a6a6-db6a8c1da4e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>57d9c67f-1627-4b38-b169-03cdee7f2b61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>推薦人資料姓名 * 請輸入姓名電話 * 電子信箱 * 所處機構 * 確認recommender.cancel</value>
+      <webElementGuid>516fcc22-328b-41cc-b132-f71bb42529c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered n-modal min-w-1/3 md:w-1/2&quot;]/div[@class=&quot;n-card__content&quot;]</value>
+      <webElementGuid>927f36f2-2337-4513-ba00-2342e81287dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[10]</value>
+      <webElementGuid>507f3c0f-1a54-4329-90ff-0d347219bab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[10]</value>
+      <webElementGuid>7467a057-ca4d-404c-85d0-11fb56525d77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div</value>
+      <webElementGuid>89d0d2e1-de83-4542-ba44-c034012db00c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '推薦人資料姓名 * 請輸入姓名電話 * 電子信箱 * 所處機構 * 確認recommender.cancel' or . = '推薦人資料姓名 * 請輸入姓名電話 * 電子信箱 * 所處機構 * 確認recommender.cancel')]</value>
+      <webElementGuid>4137c659-60ff-4356-aceb-56fb66577f0a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

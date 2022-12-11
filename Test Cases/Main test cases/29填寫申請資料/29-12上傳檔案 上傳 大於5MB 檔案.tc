@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>29-12上傳檔案 上傳 大於5MB 檔案</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c46dbc34-149e-41a2-86a1-8750dab7cfef</testCaseGuid>
+   <variable>
+      <defaultValue>'D:\\NTNU HW\\大三上軟工\\test_uploadfile\\FinalProject.pdf'</defaultValue>
+      <description></description>
+      <id>9257d45b-0f08-4065-8327-cc35b17e298d</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

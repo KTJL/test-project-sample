@@ -10,11 +10,15 @@
          <value>div.n-card__footer > div.n-space > div > button.n-button.n-button--default-type.n-button--medium-type</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '檢視目前報名狀態' or . = '檢視目前報名狀態')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>00f22d0d-52a5-4545-b40e-234ea87aefe4</webElementGuid>
+      <webElementGuid>d0025272-b092-4bf7-9833-db8792f137c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--default-type n-button--medium-type</value>
-      <webElementGuid>19cc0cad-4c5c-4f8a-8c38-f1ee73b5f507</webElementGuid>
+      <webElementGuid>7ef4ee51-2764-4e5c-8c01-410cecc6b502</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>f6c619e5-31cb-4549-8ae5-ba24f7aa4fdf</webElementGuid>
+      <webElementGuid>51d363de-ef90-4aec-9473-3ef7057a82c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a946ebdd-7b71-4c5f-9128-3cead87d1cad</webElementGuid>
+      <webElementGuid>c22e2f8a-ef6d-4390-a755-01daddb9c47e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>檢視目前報名狀態</value>
-      <webElementGuid>02d7d470-13b6-4ccf-817d-d8205d30a0fa</webElementGuid>
+      <webElementGuid>228e05a1-40af-41cd-87ae-7621dbaf8c9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--static-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__footer&quot;]/div[@class=&quot;n-space&quot;]/div[1]/button[@class=&quot;n-button n-button--default-type n-button--medium-type&quot;]</value>
-      <webElementGuid>207e95d0-a3b4-4f4b-bb95-30deb94b4553</webElementGuid>
+      <webElementGuid>cfa1ed93-fa5f-4c91-b934-713b14b2d19d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>9db0d000-21b9-43ab-9afd-fa8ae957652b</webElementGuid>
+      <webElementGuid>ec58e909-3155-4bb6-a6a4-d8a2235a0984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>3c550693-b1b2-4783-a2c2-fb3f90db1b74</webElementGuid>
+      <webElementGuid>5c282c3c-9929-45e8-81f4-997899f20862</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='測試計畫二'])[1]/following::button[1]</value>
-      <webElementGuid>3e35eefc-42a9-482c-9788-6023936335f2</webElementGuid>
+      <webElementGuid>599b2424-0d70-4847-b6f8-0caf6c97e1cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='測試計畫一'])[1]/following::button[2]</value>
-      <webElementGuid>1617d445-98ee-4a01-9795-b44c7db86ed1</webElementGuid>
+      <webElementGuid>ced6773c-e08e-4886-ae4f-72c865172c80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>68fd524a-27dc-49dd-97c0-5188e8635c3d</webElementGuid>
+      <webElementGuid>1c4e669a-bedc-4776-9b2b-1307f6bea45a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>a1beb5ff-da76-4cb0-ba14-458eca9ba1cf</webElementGuid>
+      <webElementGuid>9cdd0df4-3662-43b3-9e2d-f38328ac0d02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '檢視目前報名狀態' or . = '檢視目前報名狀態')]</value>
-      <webElementGuid>c6f9528b-29ce-4f6b-9786-a171e58ae259</webElementGuid>
+      <webElementGuid>9f85d566-1b48-4a45-b7a0-3ebd1046a2e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

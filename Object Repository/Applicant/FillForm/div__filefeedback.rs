@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__filefeedback</name>
+   <tag></tag>
+   <elementGuidId>511b8f42-9f2a-4f9f-851e-ca99a3a08e67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/form/div[8]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>df16b411-11ae-449f-ade5-0279e3e6c04d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-form-item-feedback-wrapper</value>
+      <webElementGuid>f562aee4-937d-45b5-bb97-27e0736a441d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-1/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-form-item n-form-item--medium-size n-form-item--top-labelled&quot;]/div[@class=&quot;n-form-item-feedback-wrapper&quot;]</value>
+      <webElementGuid>dfce8f1e-cdd5-4b06-808a-c532f70f9ceb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/form/div[8]/div[2]</value>
+      <webElementGuid>0ad5bf39-9877-47c5-85e3-8ec32894b324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='上傳'])[1]/following::div[5]</value>
+      <webElementGuid>6d3437d1-9990-420e-a209-0fe5a620c07d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='file2'])[1]/preceding::div[1]</value>
+      <webElementGuid>926edc89-abbb-41e9-9907-4c98bc1d0ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='上傳'])[2]/preceding::div[1]</value>
+      <webElementGuid>bf08a3b5-e987-4ae5-ab2e-7683c7396b11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div[2]</value>
+      <webElementGuid>4f1078bc-2b6c-431b-9dc9-30e966c6c731</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

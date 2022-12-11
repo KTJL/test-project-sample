@@ -6,15 +6,19 @@
    <elementGuidId>63f6c1c5-a51e-4c49-9f23-d0e04d1ded64</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.n-card__content</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-1/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;][count(. | //*[@class = 'n-card__content']) = count(//*[@class = 'n-card__content'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1e484b66-c470-45f0-9f9e-b5058eb74b19</webElementGuid>
+      <webElementGuid>709a10fd-459c-457d-bde8-253c85352451</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>n-card__content</value>
-      <webElementGuid>7d5e8d39-05e4-4bf8-8f49-9b532d24f84f</webElementGuid>
+      <webElementGuid>21d11958-dd1b-4963-90f6-7a2722281e14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +42,31 @@
       <name>role</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>d630a9f6-0e90-416a-be7b-eac85fad1ab6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Mock FormName請輸入Phone請輸入Email請輸入填寫推薦人1資料填寫推薦人2資料ScoreUpload SaveSumbit</value>
-      <webElementGuid>e9979925-d6f0-453c-910e-608e34e23f3e</webElementGuid>
+      <webElementGuid>ba1259f7-cb7d-4d3c-be31-e877b06a48a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test04nameemailphone請輸入requested *請輸入numberonly請輸入email2請輸入填寫推薦人1資料填寫推薦人2資料score *上傳file2上傳SaveSumbit</value>
+      <webElementGuid>0a69c845-dec5-474c-aa72-422f018b2bda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-1/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]</value>
-      <webElementGuid>d9321e6c-fcc8-4c39-b4da-7f639957a05b</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-1/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]</value>
+      <webElementGuid>14606b55-ea5e-4026-ab91-4fc608838f97</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div</value>
-      <webElementGuid>08e9e2c2-e49b-48bc-bae5-25de4a504db3</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>a149d7f2-55a0-4cbf-91aa-a13c6bb9fcd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,30 +74,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/following::div[8]</value>
-      <webElementGuid>542255e1-83e0-4bbc-a756-350fa326f7ca</webElementGuid>
+      <webElementGuid>6a5cf041-0868-4799-a836-cb5e6d491f17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test02'])[1]/following::div[10]</value>
-      <webElementGuid>927582f1-f570-43aa-934d-f81b48f00cb6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test01'])[1]/following::div[10]</value>
+      <webElementGuid>29e76b83-8e8b-422b-a025-2ad27304821d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div</value>
-      <webElementGuid>cfc6bcaa-b94d-4b65-8602-96ab71bfd14f</webElementGuid>
+      <value>//div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>d150d548-24d3-4dfa-a852-2fc401a54471</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Mock FormName請輸入Phone請輸入Email請輸入填寫推薦人1資料填寫推薦人2資料ScoreUpload SaveSumbit' or . = 'Mock FormName請輸入Phone請輸入Email請輸入填寫推薦人1資料填寫推薦人2資料ScoreUpload SaveSumbit')]</value>
-      <webElementGuid>2c71d0e7-f8c3-4d90-aad1-7f7deaed3175</webElementGuid>
+      <value>//div[(text() = 'test04nameemailphone請輸入requested *請輸入numberonly請輸入email2請輸入填寫推薦人1資料填寫推薦人2資料score *上傳file2上傳SaveSumbit' or . = 'test04nameemailphone請輸入requested *請輸入numberonly請輸入email2請輸入填寫推薦人1資料填寫推薦人2資料score *上傳file2上傳SaveSumbit')]</value>
+      <webElementGuid>4172925b-7af9-49a6-84ef-75316f4456f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

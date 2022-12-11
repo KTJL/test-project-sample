@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Main test cases/13 建立報名表單/common-openProgramManagerPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('常用case/common-openProgramManagerPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ProgramManager/HomePage/div_unstart'))
 

@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('常用case/common-openApplicantPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/29填寫申請資料/common-openFillApplyForm'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.comment('select program')
+WebUI.sendKeys(findTestObject('Applicant/FillForm/uploadFile'), file)
 
-WebUI.delay(3)
-
-WebUI.verifyElementPresent(findTestObject('Applicant/FillForm/div_Formbox'), 0)
+println(file)
 
