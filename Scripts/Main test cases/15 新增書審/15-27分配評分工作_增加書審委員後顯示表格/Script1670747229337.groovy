@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/15 新增書審/common-openAddDoc'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('ProgramManager/AddNewDocPage/div_testReviewer_unselected'))
+
+WebUI.click(findTestObject('ProgramManager/AddNewDocPage/div_assignReviewer'))
+
+WebUI.verifyElementPresent(findTestObject('ProgramManager/AddNewDocPage/th_testReviewer01'), 0)
+

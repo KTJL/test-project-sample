@@ -9,13 +9,27 @@
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;query\&quot;: \&quot;query{ reviewers{ id name phone email } }\&quot;\n}&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;displayText&quot;: &quot;query{\n\treviewers{\n    \tid\n        name\n        phone\n        email\n    }\n}    \t&quot;,
+  &quot;displayVariables&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;
+}</httpBodyContent>
+   <httpBodyType>GraphQL</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>63018d45-2f17-43b0-9a85-4013d9664a80</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.5.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://ntnu.jw910731.me/query</restUrl>
+   <restUrl>https://ntnu.jw910731.me/dashboard/2/query</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
