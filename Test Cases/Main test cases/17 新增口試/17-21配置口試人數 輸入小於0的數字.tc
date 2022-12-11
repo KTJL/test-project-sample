@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>17-21配置口試人數 輸入小於0的數字</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db413fca-cc35-47ac-93ad-1bcdd221d494</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b092490-7d6a-4064-91d4-a4ab8fd019b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'-10'</defaultValue>
+      <description></description>
+      <id>5b092490-7d6a-4064-91d4-a4ab8fd019b6</id>
+      <masked>false</masked>
+      <name>num</name>
+   </variable>
+</TestCaseEntity>

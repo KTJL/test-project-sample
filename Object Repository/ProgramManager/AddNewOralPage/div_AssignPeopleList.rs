@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AssignPeopleList</name>
+   <tag></tag>
+   <elementGuidId>5e212401-6060-44ef-94e2-aa71e1726af4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-collapse > div.n-collapse > div.n-collapse-item.n-collapse-item--left-arrow-placement.n-collapse-item--active > div.n-collapse-item__content-wrapper > div.n-collapse-item__content-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div/div/div[3]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bcc54887-452c-4194-a490-dbd4c815eb9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-collapse-item__content-inner</value>
+      <webElementGuid>43ba37d7-d742-4a03-a626-e227641673bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>填寫口試人數</value>
+      <webElementGuid>7457b38b-b9e8-4b15-a725-1427527a1aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]</value>
+      <webElementGuid>1050458c-e078-4771-bee3-de61c3f45b54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[3]/div[2]/div</value>
+      <webElementGuid>03c0f647-bf05-4f1f-b821-8f053452e389</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '填寫口試人數' or . = '填寫口試人數')]</value>
+      <webElementGuid>39b7ab4c-2014-41b4-a12e-5019e7e4c72f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

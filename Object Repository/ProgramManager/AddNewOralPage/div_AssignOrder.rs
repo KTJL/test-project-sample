@@ -6,15 +6,18 @@
    <elementGuidId>f854f718-2695-40dc-8e2a-0d3d92402853</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '配置口試順序' or . = '配置口試順序')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[5]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>337357d4-76ef-42a8-b6ce-75367ae8c927</webElementGuid>
+      <webElementGuid>387e34f1-d7b3-4a13-a1e4-7ec2d0f3f4f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>48c06aba-8ede-4f44-8454-d67899ee7569</webElementGuid>
+      <webElementGuid>0f0245b7-d739-46e3-a985-b42e8f8df5c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>配置口試順序</value>
-      <webElementGuid>98315231-f277-4591-ade3-81e8a8226755</webElementGuid>
+      <webElementGuid>f7c242c1-28f3-43ce-8c5a-65dec3d17359</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement&quot;]/div[@class=&quot;n-collapse-item__header&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>63c5adc2-ac03-4b1c-8b6d-eca94f599def</webElementGuid>
+      <webElementGuid>88146e4b-d8b6-4603-a917-d84dee48f75f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[5]</value>
-      <webElementGuid>4ce33b54-5a29-4877-aa03-b45f8077d287</webElementGuid>
+      <webElementGuid>ec02704f-e422-4693-a017-1bbeb4c78863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='配置口試順序']/parent::*</value>
-      <webElementGuid>1e253f63-90d2-4c8c-8397-abdd1eb07500</webElementGuid>
+      <webElementGuid>6ae36b1f-f4e1-4c2c-a055-46c459d403d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div</value>
-      <webElementGuid>590c65c6-c7e1-4bb9-a6ec-f868e7dc12dd</webElementGuid>
+      <webElementGuid>d2e89396-3aeb-4ef5-89a6-fdd886c98b56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '配置口試順序' or . = '配置口試順序')]</value>
-      <webElementGuid>9fcceb27-0bbb-47a8-b690-14cbff4a2ddd</webElementGuid>
+      <webElementGuid>733f1260-e483-4a92-9e9d-906cf00d61d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

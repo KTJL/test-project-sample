@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>15-1 摺疊面板_verify 是否能正常收闔</name>
+   <name>common-openAddOral</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>95f06802-5455-4dcf-afe8-a63217a05721</testCaseGuid>
+   <testCaseGuid>2714dee6-2fb5-4285-a201-826efce94b69</testCaseGuid>
 </TestCaseEntity>

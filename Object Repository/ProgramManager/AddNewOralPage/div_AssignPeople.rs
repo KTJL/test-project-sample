@@ -6,15 +6,18 @@
    <elementGuidId>75beaecd-14ed-4d2a-a3ab-e6a486771c0d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '配置口試人數' or . = '配置口試人數')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='沒有資料'])[2]/following::div[9]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8a0e8406-14b1-4252-9e5e-e47d407f294d</webElementGuid>
+      <webElementGuid>18d97d82-a7a2-4c69-955b-daf86a73bdb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>db3991c6-31c6-49ff-8217-6e487fc3f29b</webElementGuid>
+      <webElementGuid>fe8817fb-cb99-4071-933b-05a8e4c6dca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>配置口試人數</value>
-      <webElementGuid>e4cb9a95-6bed-48fe-85d3-5751f7805960</webElementGuid>
+      <webElementGuid>841c9ec9-9c81-4ced-a87c-4b74a5d0aed9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement&quot;]/div[@class=&quot;n-collapse-item__header&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>978046e1-5ca0-499b-a9f1-259a4407f3bd</webElementGuid>
+      <webElementGuid>3fe872be-5f11-470e-8764-e256f8dafe58</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='沒有資料'])[2]/following::div[9]</value>
-      <webElementGuid>b027263e-89f8-4ca7-85c7-4d7192e6eae1</webElementGuid>
+      <webElementGuid>df42cf5c-b278-478e-a5d2-6ea47d948c74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/preceding::div[10]</value>
-      <webElementGuid>35d94184-f134-4b38-a437-1c7f0be481ab</webElementGuid>
+      <webElementGuid>293a3b5f-e80e-4621-9397-061514b2ea8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='配置口試人數']/parent::*</value>
-      <webElementGuid>837ab729-bc5f-4667-968e-a525f884f118</webElementGuid>
+      <webElementGuid>e348799a-e306-44a2-a144-1778f52d9f33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[3]/div/div</value>
-      <webElementGuid>a02ebb3e-b3ab-40a9-bda4-9a74f858b227</webElementGuid>
+      <webElementGuid>0214dad6-0def-45ca-8570-a8d02801c3fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '配置口試人數' or . = '配置口試人數')]</value>
-      <webElementGuid>4f32b0ff-f6fa-4c1d-a37c-01582222e51f</webElementGuid>
+      <webElementGuid>0c9bf6a0-69a7-4919-866f-3b56314195c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

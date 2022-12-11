@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>15-1 摺疊面板_verify 是否能正常收闔</name>
+   <name>17-17設定評分項目_評分項目 點擊新增3次</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>95f06802-5455-4dcf-afe8-a63217a05721</testCaseGuid>
+   <testCaseGuid>6ad750a4-251d-4fdd-84d9-f7928b2c9b66</testCaseGuid>
 </TestCaseEntity>

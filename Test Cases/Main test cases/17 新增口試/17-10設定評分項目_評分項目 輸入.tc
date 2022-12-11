@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>17-10設定評分項目_評分項目 輸入</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f473535c-0daf-4c09-b51c-3b98ed5509a0</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>00169930-8a6f-4673-b8e1-0fd71598ac63</id>
+      <masked>false</masked>
+      <name>score_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>5786d203-59fb-456c-9917-af07ea5cbe48</id>
+      <masked>false</masked>
+      <name>weight</name>
+   </variable>
+</TestCaseEntity>

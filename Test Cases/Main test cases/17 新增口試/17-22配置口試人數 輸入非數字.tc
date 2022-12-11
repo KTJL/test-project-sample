@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>17-22配置口試人數 輸入非數字</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e5556b-500b-4995-a7b7-a62b653013db</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b092490-7d6a-4064-91d4-a4ab8fd019b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'abc'</defaultValue>
+      <description></description>
+      <id>5b092490-7d6a-4064-91d4-a4ab8fd019b6</id>
+      <masked>false</masked>
+      <name>num</name>
+   </variable>
+</TestCaseEntity>

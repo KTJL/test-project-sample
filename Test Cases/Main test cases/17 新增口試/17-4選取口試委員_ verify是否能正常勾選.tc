@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>15-1 摺疊面板_verify 是否能正常收闔</name>
+   <name>17-4選取口試委員_ verify是否能正常勾選</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>95f06802-5455-4dcf-afe8-a63217a05721</testCaseGuid>
+   <testCaseGuid>0ba43228-036e-4058-be4c-a19f487c2902</testCaseGuid>
 </TestCaseEntity>

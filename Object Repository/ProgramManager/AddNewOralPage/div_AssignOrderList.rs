@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AssignOrderList</name>
+   <tag></tag>
+   <elementGuidId>a7ef4a69-9bfa-4084-b547-749dffb8d1b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-collapse > div.n-collapse > div.n-collapse-item.n-collapse-item--left-arrow-placement.n-collapse-item--active > div.n-collapse-item__content-wrapper > div.n-collapse-item__content-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b3d207d8-6962-4c26-82f0-dee36867f004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-collapse-item__content-inner</value>
+      <webElementGuid>4384bd09-b0c5-4a27-965f-f7b662eaee8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>順位ID姓名</value>
+      <webElementGuid>2e6a687a-35bb-4196-8608-50ef7a63eebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]</value>
+      <webElementGuid>9cdcca5f-80cd-4225-a772-ae922e7c09be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div</value>
+      <webElementGuid>5a37c9c0-190c-49d8-9737-31a6134634db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '順位ID姓名' or . = '順位ID姓名')]</value>
+      <webElementGuid>9617904f-9138-4cb2-b415-bf1e10231e7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

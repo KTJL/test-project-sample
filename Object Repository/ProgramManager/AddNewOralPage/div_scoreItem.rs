@@ -6,15 +6,18 @@
    <elementGuidId>fc112d8a-9fbf-4917-9c1f-e0a9ae3b5613</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '評分項目' or . = '評分項目')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='沒有資料'])[2]/following::div[4]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>73bbc7b2-8c8c-4c23-85f6-00698476eba4</webElementGuid>
+      <webElementGuid>ab9511b4-cb8e-41ce-926f-76313dfbaafc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-collapse-item__header-main</value>
-      <webElementGuid>682642b4-d784-449c-9fc5-ee2524110fb1</webElementGuid>
+      <webElementGuid>2353d125-5339-4451-9381-879859b0dfb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>評分項目</value>
-      <webElementGuid>bf397c12-4947-4a3c-8df4-d4cb726c4720</webElementGuid>
+      <webElementGuid>d6592671-4f92-4a6e-9fa8-170560bb68db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement&quot;]/div[@class=&quot;n-collapse-item__header&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
-      <webElementGuid>e5326cee-b95b-485c-bbd5-4a1916051463</webElementGuid>
+      <webElementGuid>af132b56-381e-4327-bd91-c5fd46109788</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='沒有資料'])[2]/following::div[4]</value>
-      <webElementGuid>78f33f74-c37d-4f0a-8bca-64764fc34902</webElementGuid>
+      <webElementGuid>cfb49771-d9d9-4d0b-aead-8ce2d092605e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='已選 0 項'])[1]/following::div[9]</value>
-      <webElementGuid>d8b77a5d-28d6-4d8a-8b20-17ebefdc1fe4</webElementGuid>
+      <webElementGuid>02ca12cc-760d-4f72-ab32-58dad3c06770</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='評分項目']/parent::*</value>
-      <webElementGuid>c212ec9e-0e6d-4823-b58f-6930eb80b146</webElementGuid>
+      <webElementGuid>ad327b03-08dd-4770-9f14-dc427adb89f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div</value>
-      <webElementGuid>431f1dc4-580b-4a9f-8b6f-971ac73c93d6</webElementGuid>
+      <webElementGuid>17c3ae22-f9ce-4e6b-bf83-61a0b51c102e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '評分項目' or . = '評分項目')]</value>
-      <webElementGuid>7297fac0-62cb-4a8f-95c6-e3945a736f4c</webElementGuid>
+      <webElementGuid>7d4b239e-d9ae-45c6-8e0b-85199d253acb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
