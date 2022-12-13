@@ -6,15 +6,19 @@
    <elementGuidId>ccb2a348-623b-4b68-a2da-c5f3a5bcafff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[24]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.n-button.n-button--default-type.n-button--small-type</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '取消' or . = '取消')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[24]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3bdf249-ece5-49a7-a42f-456d9d9b6f47</webElementGuid>
+      <webElementGuid>9d253003-c2d5-495a-89d6-3851c1119b42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--default-type n-button--small-type</value>
-      <webElementGuid>490a201f-cfa5-4725-bdb4-0b32aa3f3d19</webElementGuid>
+      <webElementGuid>f5917e4d-5e1f-4c1f-9e2e-5d807d9f4312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>19fd9e4b-f6b2-4b83-a2f8-930e58dc8eb8</webElementGuid>
+      <webElementGuid>b8a0afcf-51f7-4c61-b4bd-843511b7a323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>98dce816-3cd8-4918-a989-04d83b9510cc</webElementGuid>
+      <webElementGuid>d5542c47-168f-4aad-9cd1-6f2ff3d6617f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>取消</value>
-      <webElementGuid>c20412a8-effa-470c-a8fd-c2edbd7d04ee</webElementGuid>
+      <webElementGuid>5ae19e53-2bc7-431b-9514-b225df4d1db1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;v-binder-follower-container&quot;]/div[@class=&quot;v-binder-follower-content&quot;]/div[@class=&quot;n-popover n-popover-shared n-popconfirm n-popover-shared--show-arrow&quot;]/div[@class=&quot;n-popover__content&quot;]/div[@class=&quot;n-popconfirm__panel&quot;]/div[@class=&quot;n-popconfirm__action&quot;]/button[@class=&quot;n-button n-button--default-type n-button--small-type&quot;]</value>
-      <webElementGuid>0fe2b6fb-bf61-4edc-a3f8-b98e186d2176</webElementGuid>
+      <webElementGuid>3b9acd79-cd7a-42e1-8444-8bb447c164cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[24]</value>
-      <webElementGuid>28306c90-fe38-4b5b-a280-7f1bbacb134f</webElementGuid>
+      <webElementGuid>831ac659-1e7d-471f-9908-5e8aef339e3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增'])[1]/following::button[1]</value>
-      <webElementGuid>1add5b9d-9394-41ea-a06c-193cb68733fc</webElementGuid>
+      <webElementGuid>f28c3ba0-ea72-4c7c-a01b-90a5303f2839</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='確認'])[1]/preceding::button[1]</value>
-      <webElementGuid>681da60e-03f7-4b61-b33b-f2926b30775f</webElementGuid>
+      <webElementGuid>957b802a-b0de-4f92-a5ba-d4913f3d9618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/button</value>
-      <webElementGuid>68ee5df6-af2e-47f4-ae73-806158f9f5c9</webElementGuid>
+      <webElementGuid>ae540b4f-f5e6-46c6-866f-c304987bca3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '取消' or . = '取消')]</value>
-      <webElementGuid>dbd04097-9650-4d53-baa7-d17fed3ade91</webElementGuid>
+      <webElementGuid>1c1c4aea-e02e-4ed4-8cc8-63b62633670c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

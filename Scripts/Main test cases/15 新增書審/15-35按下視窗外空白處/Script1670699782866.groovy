@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Main test cases/15 新增書審/common-openAddD
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('ProgramManager/AddNewDocPage/div__outofModal'))
+WebUI.delay(1)
 
 WebUI.verifyElementNotPresent(findTestObject('ProgramManager/AddNewDocPage/div_createdocModal'), 0)
 

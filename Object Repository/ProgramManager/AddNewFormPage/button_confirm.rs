@@ -6,15 +6,19 @@
    <elementGuidId>7a109a36-3741-4883-8619-b623de6580bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[25]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.n-button.n-button--primary-type.n-button--small-type</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '確認' or . = '確認')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[25]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5216cf8b-d377-41ed-be82-a6f2ea0b17c5</webElementGuid>
+      <webElementGuid>13c03ed3-e37f-45a9-80a0-36350fe90ac8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--primary-type n-button--small-type</value>
-      <webElementGuid>0f6cdd07-ca93-4d6b-8729-102822eeb01f</webElementGuid>
+      <webElementGuid>e1b84555-f1a8-4bfb-bf4b-4490049a83aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7ffb3199-0b7c-439a-a530-588b9a90e0c5</webElementGuid>
+      <webElementGuid>7b5c0ccf-febe-443e-afee-7e986e0efe42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1fe9d98e-354a-4c3d-925d-6f72095f79d2</webElementGuid>
+      <webElementGuid>7289474e-d16a-4d0e-a184-3028c205fe4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>確認</value>
-      <webElementGuid>a3470b40-fe81-4669-a10a-ce32927e5699</webElementGuid>
+      <webElementGuid>00f9a408-d49f-485b-96ab-67ed08d4655d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;v-binder-follower-container&quot;]/div[@class=&quot;v-binder-follower-content&quot;]/div[@class=&quot;n-popover n-popover-shared n-popconfirm n-popover-shared--show-arrow&quot;]/div[@class=&quot;n-popover__content&quot;]/div[@class=&quot;n-popconfirm__panel&quot;]/div[@class=&quot;n-popconfirm__action&quot;]/button[@class=&quot;n-button n-button--primary-type n-button--small-type&quot;]</value>
-      <webElementGuid>b99b6e2b-48c7-4e17-8e4d-08176a7ff423</webElementGuid>
+      <webElementGuid>ac982a6c-ee93-4f23-92b1-2bc40c5840e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[25]</value>
-      <webElementGuid>b0f116e6-bafa-484f-8ff5-01ad5ce22ab3</webElementGuid>
+      <webElementGuid>76241bdf-fc68-488f-9929-69cd4ea2e091</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='取消'])[1]/following::button[1]</value>
-      <webElementGuid>4b49e9a7-c072-4f68-9813-21ca7ac1f35c</webElementGuid>
+      <webElementGuid>652086ee-6be5-469d-b03d-4b00f8034a9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>5960869b-bc97-4e7a-ba7f-9e0575311be6</webElementGuid>
+      <webElementGuid>6c465417-486d-4265-a237-7d3205bbd161</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button[2]</value>
-      <webElementGuid>48eb21f7-36a3-4154-bee0-5f246340c60d</webElementGuid>
+      <webElementGuid>a86a6881-41cc-4ab4-b1a9-2ab89f551960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '確認' or . = '確認')]</value>
-      <webElementGuid>1759b28c-307b-4882-a0a8-070400fee4f5</webElementGuid>
+      <webElementGuid>64fcf0bc-55e6-4969-bc47-d3c35ab12cdc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

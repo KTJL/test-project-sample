@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>21-2登出_verify是否出現登入頁面</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aac68cb4-f9e4-477e-ad8c-62fc258c115e</testCaseGuid>
+</TestCaseEntity>

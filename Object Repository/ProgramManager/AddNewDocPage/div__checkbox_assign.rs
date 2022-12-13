@@ -10,11 +10,15 @@
          <value>div.n-checkbox-box__border</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]/table[@class=&quot;n-table n-table--bottom-bordered n-table--bordered&quot;]/tbody[1]/tr[1]/td[2]/div[@class=&quot;n-checkbox&quot;]/div[@class=&quot;n-checkbox-box-wrapper&quot;]/div[@class=&quot;n-checkbox-box&quot;]/div[@class=&quot;n-checkbox-box__border&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//td[2]/div/div/div/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>587677b8-0999-4fcf-a3a7-919452959423</webElementGuid>
+      <webElementGuid>99b6cc93-2d28-4df0-8ebe-cd5ccde091f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-checkbox-box__border</value>
-      <webElementGuid>cb88e8fe-c8ed-480d-a0a1-fb69181430f5</webElementGuid>
+      <webElementGuid>b231a633-1ad9-483d-80b3-149e2987ca7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]/table[@class=&quot;n-table n-table--bottom-bordered n-table--bordered&quot;]/tbody[1]/tr[1]/td[2]/div[@class=&quot;n-checkbox&quot;]/div[@class=&quot;n-checkbox-box-wrapper&quot;]/div[@class=&quot;n-checkbox-box&quot;]/div[@class=&quot;n-checkbox-box__border&quot;]</value>
-      <webElementGuid>7ae1e964-a66f-4eb1-8c18-fcc199d9d30e</webElementGuid>
+      <webElementGuid>880478f0-cba7-4ba3-bd6f-15d8030fe891</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +50,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/div/div/div[2]</value>
-      <webElementGuid>6ddc04e8-a9bb-4f29-89e2-cc52fb7c4304</webElementGuid>
+      <webElementGuid>0a0bc4af-2a44-40c9-8c99-9c5b0e1b4977</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

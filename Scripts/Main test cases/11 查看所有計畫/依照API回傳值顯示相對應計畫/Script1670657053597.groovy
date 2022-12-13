@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Main test cases/3登入/3-5登入成功(PM)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-def response = WS.sendRequest(findTestObject('New Request'))
+def response = WS.sendRequest(findTestObject('API/get_reviewer'))
 
 println(response)
 

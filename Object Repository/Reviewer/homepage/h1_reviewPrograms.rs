@@ -10,11 +10,15 @@
          <value>h1.n-h.n-h1.text-center</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '需評分項目' or . = '需評分項目')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div/div/div/h1</value>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div/div/h1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>b25b5908-c9d6-4c5f-98ee-2995fef69a4c</webElementGuid>
+      <webElementGuid>9f00d82e-a306-4915-85b7-5e2767327ba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-h n-h1 text-center</value>
-      <webElementGuid>ec91b4dd-bbd8-4f85-a9e1-037963f1ca22</webElementGuid>
+      <webElementGuid>93407248-1733-4eff-8c95-c97822f27ad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +42,23 @@
       <name>text</name>
       <type>Main</type>
       <value>需評分項目</value>
-      <webElementGuid>9f2b5190-4033-460d-8ffc-d7802fcd2486</webElementGuid>
+      <webElementGuid>3868e08c-dd76-4914-bb28-170c748b01cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--static-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/h1[@class=&quot;n-h n-h1 text-center&quot;]</value>
-      <webElementGuid>b257c1bf-8a2f-4128-8722-7fe9c6c15dba</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--static-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/h1[@class=&quot;n-h n-h1 text-center&quot;]</value>
+      <webElementGuid>31e1c829-80ac-4207-9d33-7b8284b2cf73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[2]/div/div/div/div/div/div/h1</value>
-      <webElementGuid>2ca21084-c130-401e-852c-ef4861c65d80</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div/div/h1</value>
+      <webElementGuid>da245d21-bb0f-4433-ba31-aa4dc881adcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,15 +66,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='登出'])[1]/following::h1[1]</value>
-      <webElementGuid>dc25ac52-c4fa-4db1-a66a-ce6ae871a4ab</webElementGuid>
+      <webElementGuid>8c8d5c4e-f456-4c48-8602-92d934f5043c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviewer'])[1]/following::h1[1]</value>
-      <webElementGuid>7d992123-091a-4ca9-8ed0-2b15dfffd74a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testReviewer01'])[1]/following::h1[1]</value>
+      <webElementGuid>aabaeb48-5c33-415d-a62d-45fd31c1a989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test04'])[1]/preceding::h1[1]</value>
+      <webElementGuid>f82d69b7-da8d-40cf-8581-7c9e7b3c9cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h1[1]</value>
-      <webElementGuid>9633faab-ef6b-4ad3-b849-32d9ff04c463</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::h1[1]</value>
-      <webElementGuid>673e0e11-00c0-4a78-a40a-9e412d3b4312</webElementGuid>
+      <webElementGuid>9000d565-eb88-438c-bf22-3e008af2bcdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='需評分項目']/parent::*</value>
-      <webElementGuid>7345914f-365f-4b0a-a5c4-9ae1ea0dc90b</webElementGuid>
+      <webElementGuid>aa3dd080-e830-410f-a7aa-799d365e1733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>6e3f915d-ecd6-4701-b5be-6496b6bd0d85</webElementGuid>
+      <webElementGuid>bc5baca6-db54-4fce-9834-7ab033630ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = '需評分項目' or . = '需評分項目')]</value>
-      <webElementGuid>d9a9b315-85cb-4da4-acf2-2ebb3675a6c5</webElementGuid>
+      <webElementGuid>7beb02da-1b35-4fc3-b972-98f98cdaa0b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

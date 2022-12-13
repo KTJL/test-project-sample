@@ -14,4 +14,9 @@
       <initValue>'test_program'</initValue>
       <name>programName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0'</initValue>
+      <name>programId</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

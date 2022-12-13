@@ -6,15 +6,18 @@
    <elementGuidId>ec35abe3-47cb-4986-a87f-54f21b1ef9e5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '新增' or . = '新增')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[11]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6dc7471e-5a2c-499c-8426-e39785cc3ba2</webElementGuid>
+      <webElementGuid>e2a098b0-eb9d-4603-a774-7d24990b7405</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--info-type n-button--large-type</value>
-      <webElementGuid>c6f2bfdc-f848-44bb-a090-1f94edded3a4</webElementGuid>
+      <webElementGuid>7341b4d9-9b78-4a93-aa16-c0f58ef49de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3f7c00cb-6c2e-4332-921e-665b498e5b2a</webElementGuid>
+      <webElementGuid>bdb66566-7d2b-4898-9726-842c232404a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>54e34368-2949-40ae-a9fc-19683fc36043</webElementGuid>
+      <webElementGuid>2aa76ee4-46fc-466a-b198-01533a4705b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>新增</value>
-      <webElementGuid>df501d85-6a91-4196-bf41-ca1159b0ec6b</webElementGuid>
+      <webElementGuid>6ce62046-2194-4cab-a4c3-bd711e206fb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-space&quot;]/div[2]/button[@class=&quot;n-button n-button--info-type n-button--large-type&quot;]</value>
-      <webElementGuid>6999ac21-f87e-4d71-a61a-5283e654ed32</webElementGuid>
+      <webElementGuid>460b7c9a-4014-4ffd-9a6c-e855bb47bea4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>adc8b0ff-b0dd-4942-a91e-bd1e1fda5abe</webElementGuid>
+      <webElementGuid>4fd33d71-ca35-4b57-833e-822c88f388c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/button</value>
-      <webElementGuid>e15ae019-ce6b-4b9c-b9ce-6cb7024f5cd5</webElementGuid>
+      <webElementGuid>cec85d00-1956-4038-85ef-d4352bc4c393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '新增' or . = '新增')]</value>
-      <webElementGuid>d6427348-5173-4f48-b884-d3cec621de8b</webElementGuid>
+      <webElementGuid>9e21b1a4-202b-4691-a403-0a4e72b621f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

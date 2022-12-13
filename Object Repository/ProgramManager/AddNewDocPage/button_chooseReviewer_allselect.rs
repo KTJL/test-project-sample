@@ -10,11 +10,15 @@
          <value>button.n-button.n-button--default-type.n-button--tiny-type.n-transfer-list-header__button</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '全選' or . = '全選')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[11]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a8646d73-6506-4374-a6a3-6f09d0176320</webElementGuid>
+      <webElementGuid>5a8ac6f1-3db3-4f39-a7ac-224b5d7cd45b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n-button n-button--default-type n-button--tiny-type n-transfer-list-header__button</value>
-      <webElementGuid>6232294a-262f-4e8e-8657-9db521f526a5</webElementGuid>
+      <webElementGuid>2e6c0132-24ab-4c6f-9265-324c01721c9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>52630cef-4395-4d03-b68d-d53652638603</webElementGuid>
+      <webElementGuid>5a5a92f7-a485-49f9-99fb-ba68e4e7c109</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>222f494c-1fdd-4cf1-9802-c8e2ddfa8a0b</webElementGuid>
+      <webElementGuid>d0fab163-57cd-4f5e-b1be-41eeaebfae75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>全選</value>
-      <webElementGuid>c17a969f-2874-42cb-94d5-e54d440d8ac0</webElementGuid>
+      <webElementGuid>53207d9f-687a-41a4-af78-3b612b81d8de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered min-w-1/3 w-screen-lg &lt;lg:w-11/12 n-modal&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__content-wrapper&quot;]/div[@class=&quot;n-collapse-item__content-inner&quot;]/div[@class=&quot;n-transfer&quot;]/div[@class=&quot;n-transfer-list n-transfer-list--source&quot;]/div[@class=&quot;n-transfer-list-header&quot;]/button[@class=&quot;n-button n-button--default-type n-button--tiny-type n-transfer-list-header__button&quot;]</value>
-      <webElementGuid>389a5360-f3cf-47ab-9218-116f792a109c</webElementGuid>
+      <webElementGuid>6d2017d0-f412-44a3-b707-1d13455e7bec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>d071e99b-a156-44a4-83a9-9259ab0f6504</webElementGuid>
+      <webElementGuid>9ebebed4-7e74-4637-9c52-e9642594e9ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='新增書審'])[1]/following::button[1]</value>
-      <webElementGuid>30ec0470-38bf-413d-a0db-7c49db25659e</webElementGuid>
+      <webElementGuid>b6f678cf-9b22-438d-8b6d-d5b6221209d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='共 3 項'])[1]/preceding::button[1]</value>
-      <webElementGuid>2d8e0d3c-9511-40e6-8691-2e0ab73f15a9</webElementGuid>
+      <webElementGuid>111fbe37-3f93-4ef2-94b5-60f487dbd863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/button</value>
-      <webElementGuid>d2efb9f0-1b7b-4bfa-bfb7-8f897928965e</webElementGuid>
+      <webElementGuid>5a4ac41b-dee8-49db-ad29-79d042b68be0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '全選' or . = '全選')]</value>
-      <webElementGuid>b2745096-b436-4ac0-9e1e-b5c7ec33a271</webElementGuid>
+      <webElementGuid>867827ea-aa51-4225-a513-c73aa88572c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

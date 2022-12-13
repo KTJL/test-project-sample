@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Main test cases/11 查看所有計畫/common-openNewProgramModal'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('ProgramManager/HomePage/BuildNewProgram/input__programName'), ProgramName)
+
+WebUI.click(findTestObject('ProgramManager/HomePage/BuildNewProgram/button_add'))
+
