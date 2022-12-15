@@ -17,23 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('常用case/common-openReviewerPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/22 書審評分/common-openDocReviewPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-program_name = WebUI.getText(findTestObject('Reviewer/homepage/button_program'))
+WebUI.click(findTestObject('Reviewer/ReviewPage/button_logout'))
 
-WebUI.click(findTestObject('Reviewer/homepage/button_program'))
+WebUI.verifyElementPresent(findTestObject('Login_Page/div_loginbox'), 0)
 
-WebUI.delay(2)
-
-WebUI.verifyTextPresent(program_name, false)
-
-WebUI.verifyElementPresent(findTestObject('Reviewer/programPage/div_programbox'), 0)
-
-WebUI.click(findTestObject('Reviewer/programPage/button_DocReview'))
-
-WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/button_scoreResult'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/div__justify-center'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/div_applicantList'), 0)
+WebUI.verifyElementPresent(findTestObject('Login_Page/div_guidebar'), 0)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>22-8其他申請人_verify 是否顯示其他申請人頁面</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba61bd7d-a3c3-4910-ab3e-c54c788417b3</testCaseGuid>
+</TestCaseEntity>

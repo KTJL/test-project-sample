@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_reason</name>
+   <tag></tag>
+   <elementGuidId>62aff4b3-e2e5-4965-ab91-f8de3f0bd4c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/form/div/div[6]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[1]/div[@class=&quot;n-layout-content n-layout n-layout--static-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[1]/div[@class=&quot;justify-center m-14 min-h-3/5&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-space&quot;]/div[6]/div[@class=&quot;n-input n-input--textarea n-input--resizable n-input--focus n-input--stateful&quot;]/div[@class=&quot;n-input-wrapper&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-input.n-input--textarea.n-input--resizable.n-input--focus.n-input--stateful > div.n-input-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c39915d5-aa1c-4415-a68c-9a9a410a7d11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-input-wrapper</value>
+      <webElementGuid>3e466db3-74e7-453b-a000-0bbf173ff1a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>徑取理由</value>
+      <webElementGuid>486f0c31-bbc5-40dd-956f-b0ab009009bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-config-provider&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;n-layout n-layout--absolute-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[1]/div[@class=&quot;n-layout-content n-layout n-layout--static-positioned&quot;]/div[@class=&quot;n-layout-scroll-container&quot;]/div[@class=&quot;justify-center my-14 mx-auto min-h-3/5 w-2/3&quot;]/div[1]/div[@class=&quot;justify-center m-14 min-h-3/5&quot;]/div[@class=&quot;n-card n-card--bordered&quot;]/div[@class=&quot;n-card__content&quot;]/form[@class=&quot;n-form&quot;]/div[@class=&quot;n-space&quot;]/div[6]/div[@class=&quot;n-input n-input--textarea n-input--resizable n-input--focus n-input--stateful&quot;]/div[@class=&quot;n-input-wrapper&quot;]</value>
+      <webElementGuid>c8246c42-0ca9-4468-9fe7-4c16d549cd01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/form/div/div[6]/div/div</value>
+      <webElementGuid>6b5d2243-0098-457d-beec-770eb9f3c868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='徑取'])[1]/following::div[3]</value>
+      <webElementGuid>035bd62b-9860-4958-b224-a582f364842f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='score02(50%)'])[1]/following::div[19]</value>
+      <webElementGuid>4fe70f84-27f8-4077-b1f3-3ff6d365217e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='儲存'])[1]/preceding::div[6]</value>
+      <webElementGuid>71229835-0a34-46f4-bf69-437af2012cf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div</value>
+      <webElementGuid>2d218eeb-e2fb-4d13-a1dc-8ba288c515e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '徑取理由' or . = '徑取理由')]</value>
+      <webElementGuid>4d8387bb-21ca-44d1-98f7-8bb46c96e963</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

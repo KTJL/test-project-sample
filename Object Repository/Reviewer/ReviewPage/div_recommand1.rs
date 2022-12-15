@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_recommand1</name>
+   <tag></tag>
+   <elementGuidId>0895dfeb-052d-4557-91d6-be946814af14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[15]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.n-card__content > div.n-collapse > div.n-collapse-item.n-collapse-item--left-arrow-placement.n-collapse-item--active > div.n-collapse-item__header.n-collapse-item__header--active > div.n-collapse-item__header-main</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>30e92eef-4737-4696-a908-585837b73c65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n-collapse-item__header-main</value>
+      <webElementGuid>38225250-6a5c-4751-b129-1741ce78c3df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>推薦信一</value>
+      <webElementGuid>e5d73313-fd70-45bb-9d43-13eaf7017cf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;n-modal-container&quot;]/div[@class=&quot;n-modal-body-wrapper&quot;]/div[@class=&quot;n-scrollbar&quot;]/div[@class=&quot;n-scrollbar-container&quot;]/div[@class=&quot;n-scrollbar-content n-modal-scroll-content&quot;]/div[@class=&quot;n-card n-card--bordered n-modal min-w-1/3 md:w-2/3 max-w-11/12&quot;]/div[@class=&quot;n-card__content&quot;]/div[@class=&quot;n-collapse&quot;]/div[@class=&quot;n-collapse-item n-collapse-item--left-arrow-placement n-collapse-item--active&quot;]/div[@class=&quot;n-collapse-item__header n-collapse-item__header--active&quot;]/div[@class=&quot;n-collapse-item__header-main&quot;]</value>
+      <webElementGuid>cfb24af3-4828-4b03-a14b-54d5c4cf975d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[15]</value>
+      <webElementGuid>c51773d6-508a-4d65-a9e3-a059aaf0b964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[15]</value>
+      <webElementGuid>574c6ce6-5427-46fd-b218-65072530699c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='推薦信一']/parent::*</value>
+      <webElementGuid>463a679b-3dda-4ee1-95ec-050a15e2a25b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]/div/div/div/div/div</value>
+      <webElementGuid>dc0d1438-5faa-4a19-8db5-9accfd968885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '推薦信一' or . = '推薦信一')]</value>
+      <webElementGuid>aa8f65d1-0c37-49af-a427-2a061aa3aaed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

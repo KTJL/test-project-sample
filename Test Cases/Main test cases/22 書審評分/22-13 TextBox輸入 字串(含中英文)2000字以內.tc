@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>22-13 TextBox輸入 字串(含中英文)2000字以內</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19183d27-c4cb-4c9d-b62e-c6c194068b54</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6aa85c56-7dce-4ca2-9b6d-cd0167ad0620</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'good!'</defaultValue>
+      <description></description>
+      <id>6aa85c56-7dce-4ca2-9b6d-cd0167ad0620</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+</TestCaseEntity>

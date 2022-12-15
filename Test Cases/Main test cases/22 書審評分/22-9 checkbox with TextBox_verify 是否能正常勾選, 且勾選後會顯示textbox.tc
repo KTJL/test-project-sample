@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>22-9 checkbox with TextBox_verify 是否能正常勾選, 且勾選後會顯示textbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c2873fa-5e7e-4b16-8319-f8e972b0e5da</testCaseGuid>
+</TestCaseEntity>

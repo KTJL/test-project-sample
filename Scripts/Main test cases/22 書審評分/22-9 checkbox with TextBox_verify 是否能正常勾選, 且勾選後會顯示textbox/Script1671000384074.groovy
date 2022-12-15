@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('常用case/common-openReviewerPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main test cases/22 書審評分/common-openDocReviewPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-program_name = WebUI.getText(findTestObject('Reviewer/homepage/button_program'))
+WebUI.click(findTestObject('Reviewer/ReviewPage/button_Applicant_test02'))
 
-WebUI.click(findTestObject('Reviewer/homepage/button_program'))
+expectName = WebUI.getText(findTestObject('Reviewer/ReviewPage/button_Applicant_test02'))
 
-WebUI.delay(2)
+actualName = WebUI.getText(findTestObject('Reviewer/ReviewPage/th_ApplicantName'))
 
-WebUI.verifyTextPresent(program_name, false)
+WebUI.verifyEqual(expectName, actualName)
 
-WebUI.verifyElementPresent(findTestObject('Reviewer/programPage/div_programbox'), 0)
+WebUI.click(findTestObject('Reviewer/ReviewPage/div_checkbox'))
 
-WebUI.click(findTestObject('Reviewer/programPage/button_DocReview'))
+WS.comment('click textbox')
 
-WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/button_scoreResult'), 0)
+WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/textarea_reason'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/div__justify-center'), 0)
+WebUI.click(findTestObject('Reviewer/ReviewPage/div_checkbox'))
 
-WebUI.verifyElementPresent(findTestObject('Reviewer/ReviewPage/div_applicantList'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Reviewer/ReviewPage/textarea_reason'), 0)
 
